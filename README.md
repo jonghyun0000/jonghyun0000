@@ -60,8 +60,8 @@
 ---
 
 ## 📫 Contact
-- 📧 Email: **tlse063@gmail.com**
-- 📷 Instagram: open DM  
+- 📧 Email: **king33135867@gmail.com**
+- 📷 Instagram: 04_jonghyun Open DM  
 - 💬 Always open for collaboration & new ideas
 
 ---
