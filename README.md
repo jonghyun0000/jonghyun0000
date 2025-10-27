@@ -5,7 +5,7 @@
 <h1 align="center">Hi, I'm JongHyun 👋</h1>
 
 <p align="center">
-<a href="mailto:tlse063@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-tlse063%40gmail.com-informational?logo=gmail"></a>
+<a href="mailto:king33135867@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-tlse063%40gmail.com-informational?logo=gmail"></a>
 <a href="https://github.com/jonghyun0000"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-@jonghyun0000-black?logo=github"></a>
 <a href="https://www.linkedin.com/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Open%20to%20connect-blue?logo=linkedin"></a>
 </p>
