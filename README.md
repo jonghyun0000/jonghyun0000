@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1200&center=true&vCenter=true&width=720&lines=%EC%9D%B4%EC%A2%85%ED%98%84+%7C+Indie+Maker+%26+ENTJ;Business+%C3%97+Software+%40+Hallym+Univ.;%EA%B8%B0%ED%9A%8D%E2%86%92%EC%BD%94%EB%94%A9%E2%86%92%EB%B0%B0%ED%8F%AC%E2%86%92%EC%9A%B4%EC%98%81+%EB%A9%80%EB%A6%AC%EB%9D%BC%EC%9D%B4%EB%8B%A4;AI-native+builder+%C2%B7+%EC%B6%98%EC%B2%9C" alt="Typing SVG" />
 </p>
 
-<h1 align="center">안녕하세요, 이종현입니다 👋</h1>
+<h1 align="center">Hi, I'm JONGHYUN 👋</h1>
 
 <p align="center">
   <a href="mailto:king33135867@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-king33135867%40gmail.com-EA4335?logo=gmail&logoColor=white"></a>
@@ -37,6 +37,10 @@
 ---
 
 ## 💼 경력 (Career)
+- **2026.03 – 현재** · [한림대학교/학생복지위원회] · [시설국 부장]
+  - 물품대여
+
+- **2024.02.19 – 2025.08.18** · [군복무/해병대] · [병1303기]
 
 > _작성 예정 — 인턴십·프로젝트 운영 경험을 여기에 채워주세요._
 
@@ -52,7 +56,10 @@
 
 ## 🏅 자격증 (Certifications)
 
-- 📊 **사회조사분석사 2급** _(준비 중)_
+- 🥋 **태권도 2단증 · 2014.09.15** 
+- 🛞 **운전면허증 1종 보통 · 2023.07.13** 
+- ⛷️ **스키지도자 자격증 LEVEL · 2026.02.02**
+- 🎿 **스키지도요원자격증 TEACHING1 · 2026.02.12** 
 
 <!-- 합격한 자격증·시험 점수가 있으면 아래에 추가
 - 📜 [자격증명] · 취득일
@@ -194,7 +201,10 @@ SaMD(의료기기 소프트웨어) 컨셉의 인지 자가 모니터링 모바�
 
 ## 🏅 Certifications
 
-- 📊 **Social Research Analyst Level 2** _(in preparation)_
+- 🥋 **태권도 2단증 · 2014.09.15** 
+- 🛞 **운전면허증 1종 보통 · 2023.07.13** 
+- ⛷️ **스키지도자 자격증 LEVEL · 2026.02.02**
+- 🎿 **스키지도요원자격증 TEACHING1 · 2026.02.12** 
 
 ---
 
