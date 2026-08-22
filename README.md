@@ -1,272 +1,244 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1200&center=true&vCenter=true&width=720&lines=%EC%9D%B4%EC%A2%85%ED%98%84+%7C+Indie+Maker+%26+ENTJ;Business+%C3%97+Software+%40+Hallym+Univ.;%EA%B8%B0%ED%9A%8D%E2%86%92%EC%BD%94%EB%94%A9%E2%86%92%EB%B0%B0%ED%8F%AC%E2%86%92%EC%9A%B4%EC%98%81+%EB%A9%80%EB%A6%AC%EB%9D%BC%EC%9D%B4%EB%8B%A4;AI-native+builder+%C2%B7+%EC%B6%98%EC%B2%9C" alt="Typing SVG" />
-</p>
+<a id="korean"></a>
 
-<h1 align="center">Hi, I'm JONGHYUN 👋</h1>
+# 이종현 · JongHyun
 
-<p align="center">
-  <a href="mailto:king33135867@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-king33135867%40gmail.com-EA4335?logo=gmail&logoColor=white"></a>
-  <a href="https://github.com/jonghyun0000"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-@jonghyun0000-181717?logo=github&logoColor=white"></a>
-  <a href="https://instagram.com/04_jonghyun"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-@04__jonghyun-E4405F?logo=instagram&logoColor=white"></a>
-  <a href="https://chuncheon-dating4-0.vercel.app/"><img alt="Live Service" src="https://img.shields.io/badge/Live-%EC%B6%98%EC%B2%9C%20%EA%B3%BC%ED%8C%85-FF4D8D?logo=vercel&logoColor=white"></a>
-</p>
+**한국어** · [English](#english)
 
----
+> **떠오르면 일단 만들어버리는 사람 — 기획서 대신 배포 링크로 말합니다.**
 
-## 🧭 소개
+기획 · 설계 · 개발 · 배포까지 혼자 완결하는 대학생 개발자. 될지 안 될지는 회의가 아니라 돌아가는 결과물로 확인합니다.
 
-- 🎓 한림대학교 **경영 × 소프트웨어** 복수전공 · 춘천 거주
-- 💼 **1인 인디 메이커** — 기획·디자인·코드·배포·운영까지 혼자 끝까지
-- 🧠 ENTJ · 금융 감각 + 공학적 실행력 + 일단 출시
-- 🎯 **2029년**까지 금융 커리어 + 수익 나는 사이드 프로젝트 포트폴리오
+한림대학교 경영학 × 소프트웨어 복수전공 (춘천) · 해병대 병장 만기전역 (2024.02 – 2025.08)
+
+[king33135867@gmail.com](mailto:king33135867@gmail.com)
 
 ---
 
-## 🤖 사용 중인 AI
+## 대표 프로젝트
 
-> 손코딩 시대는 끝났음. 나는 설계하고, AI가 친다. 실제로 결제하고 쓰는 것만.
+### 춘천과팅 — 대학생 3:3 매칭 플랫폼
 
-| 도구 | 요금제 | 용도 |
-|------|--------|------|
-| **Claude** | **Max ($100/월)** | 메인 페어 프로그래머 · 풀스택 개발 · Supabase RLS · 리팩토링 |
-| **ChatGPT** | **Plus** | 빠른 리서치 · 아이디어 검증 · 카피 |
-| **Gemini** | **Pro** | 멀티모달 분석 · 보조 검토 |
-| **Cursor** | Free | IDE 인라인 AI 편집 |
-| **GitHub Copilot** | Free | 에디터 자동완성 |
+춘천 지역 대학생을 대상으로 한 매칭 서비스. 인증부터 결제 흐름까지 전 과정을 혼자 설계하고 구현했습니다.
 
----
+- 학생증 사진 업로드 → 관리자 승인으로 이어지는 인증 워크플로
+- Supabase RLS 기반 권한 설계 · 시크릿 분리 · 키 로테이션 정책 문서화
+- 한 / 영 / 일 / 중 4개 국어 i18n, 무료 플랜 슬립 방지용 GitHub Actions keepalive
+- **Stack**: React · TypeScript · Vite · Supabase (PostgreSQL · Auth · Storage) · Vercel
 
-## 💼 경력 (Career)
-- **2026.03 – 현재** · [한림대학교/학생복지위원회] · [시설국 부장]
-  - 물품대여
+[배포 링크](https://chuncheon-dating4-0.vercel.app/) · [Repo](https://github.com/jonghyun0000/chuncheon-dating5.0)
 
-- **2024.02.19 – 2025.08.18** · [군복무/해병대] · [병1303기]
+### 한글 코딩 플랫폼 — 한글 프로그래밍 언어 & 웹 IDE
 
-> _작성 예정 — 인턴십·프로젝트 운영 경험을 여기에 채워주세요._
+한글 키워드(만약 / 반복 / 함수)로 동작하는 교육용 언어를 직접 설계하고 구현했습니다.
 
-<!--
-예시 포맷:
-- **2025.XX – 현재** · [회사명/조직] · [직무]
-  - 한 일 1
-  - 한 일 2
-- **2025.XX – 2025.XX** · [회사명/조직] · [직무]
--->
+- 렉서 → 파서 → AST → 트리워킹 인터프리터 직접 구현 (약 1,400줄)
+- CodeMirror 6 커스텀 언어 지원: 문법 하이라이팅 · 자동 들여쓰기 · 자동완성 · 호버 툴팁
+- 거북이 그래픽 실행 환경, 한글 IME 스마트 따옴표 등 입력기 예외 처리
+- **Stack**: TypeScript · React · CodeMirror 6
 
----
+[Repo](https://github.com/jonghyun0000/Korean-coding-platform)
 
-## 🏅 자격증 (Certifications)
+### 대학 등록금 비교 — 공공데이터 기반 조회·분석 서비스
 
-- 🥋 **태권도 2단증 · 2014.09.15** 
-- 🛞 **운전면허증 1종 보통 · 2023.07.13** 
-- ⛷️ **스키지도자 자격증 LEVEL · 2026.02.02**
-- 🎿 **스키지도요원자격증 TEACHING1 · 2026.02.12** 
+전국 대학의 등록금 데이터를 정리해 학교별로 조회하고 비교할 수 있게 만든 서비스입니다.
 
-<!-- 합격한 자격증·시험 점수가 있으면 아래에 추가
-- 📜 [자격증명] · 취득일
--->
+- 대학별 데이터셋 구축과 비교 화면 구성
+- **Stack**: Next.js (App Router) · TypeScript · Tailwind CSS
 
----
+[Repo](https://github.com/jonghyun0000/University-tuition-fees)
 
-## 🌸 라이브 서비스
+### 수어 인식기 — 웹캠 기반 한국 수어 실시간 인식
 
-### [춘천 과팅 4.0](https://chuncheon-dating4-0.vercel.app/) — *운영 중 · 결제 회전 중*
-강원대·한림대·성심대 학생 대상 **3:3 매칭 플랫폼**.  
-실제 결제 / 학생증 인증 / 관리자 운영 / 보안 하드닝(RLS + admin assertion).  
-🔗 **서비스 바로가기:** https://chuncheon-dating4-0.vercel.app/  
-**Stack:** React · Vite · TypeScript · Supabase · Vercel
+카메라로 손 모양을 인식해 자음과 단어를 판별하고, 결과를 음성으로 출력합니다.
 
----
+- MediaPipe Hands 양손 추적 · 제스처 분류 · 인식 신뢰도 표시와 디바운싱
+- 자음 10개, 단어 5개 인식 · 한국어 음성 출력(TTS)
+- **Stack**: TypeScript · React · MediaPipe
 
-## 🚧 진행 중인 프로젝트
+[Repo](https://github.com/jonghyun0000/Sign-language1.0)
 
-### 📉 인스타 언팔로우 찾기 (Find-Unfollow 2.0)
-내가 팔로우하지만 나를 팔로우하지 않는 계정을 찾아주는 웹앱. 데이터는 로컬에서만 처리되어 안전.  
-**Stack:** TypeScript · React · Tailwind
+### 스마트 교복 키오스크 — 매장 주문 · 수선 · 예약 화면
 
-### 📈 주식 자동매매 프로그램
-규칙 기반 자동매매 봇. 백테스팅 → 라이브 트레이딩까지 단일 파이프라인 구축 중.  
-**Stack:** Python · 한국투자증권 API · Pandas
+교복 매장을 상정해 만든 고객용 키오스크와 관리자 콘솔입니다.
 
-### 🧠 디멘트 (Dement) — 노인 치매 예방 서비스
-SaMD(의료기기 소프트웨어) 컨셉의 인지 자가 모니터링 모바일 앱. 사용자 + 보호자 동시 사용.  
-**대응 규제:** 한국 식약처(MFDS) · 미국 FDA · EU MDR
+- 주문 / 수선 / 교환 / 예약 4개 고객 플로우 + 관리자 통계 대시보드
+- **Stack**: Next.js (App Router) · TypeScript · Supabase
+
+[Repo](https://github.com/jonghyun0000/smart-School-uniform3.0)
+
+### Find-Unfollow — 인스타그램 언팔로워 분석 PWA
+
+데이터를 서버로 보내지 않고 브라우저 안에서만 처리하는 프라이버시 우선 설계입니다.
+
+- 인스타그램 데이터 내보내기 파일 파싱 → 언팔 / 맞팔 분석과 통계 차트
+- 서비스 워커 · 매니페스트 기반 설치형 PWA
+- **Stack**: Next.js · TypeScript · Tailwind CSS
+
+[Repo](https://github.com/jonghyun0000/Find-Unfollow2.1)
 
 ---
 
-## ✅ 완성 프로젝트
+## 성장 로그
 
-| 프로젝트 | 설명 | 스택 |
-|---------|------|------|
-| 🎨 **color-matching 1.0** | 남성 아웃핏용 색상 매칭 추천 웹앱 | HTML |
-| 💾 **Savebox-App** | 절약·저축 기록 관리 앱 | HTML |
-| 🌏 **Making-Foreign-Friends** | 외국인 친구 매칭/네트워킹 플랫폼 | HTML |
-| 🌡️ **AI 언어 온도 측정기** | AI 답변의 따뜻함·거리감 등 7가지 지표로 "언어 온도" 시각화 | HTML |
-| 🚌 **Transfer-GO** | T머니 공모전 출품작 · 대중교통 환승 도우미 | HTML |
-| 🏪 **smart-School-uniform 1.0~3.0** | 부모님 교복 가게 키오스크 자동화 (재고·결제 연동) | TypeScript |
-| 🎯 **rota-mbti / rota-Quiz / hallym_rotaract** | 한림 로타랙트 동아리용 인터랙티브 도구 | HTML |
-| 🔍 **Find-Unfollow v1** | 인스타 언팔로워 찾기 초기 버전 (v2로 발전) | HTML |
-| 🌸 **chuncheon-dating v1~v3** | 현재 라이브 v4의 이전 아카이브 버전 | TypeScript |
+여섯 번의 프로젝트가 곧 여섯 단계의 성장이었습니다.
 
----
-
-## 📚 콘텐츠 / 사이드 결과물
-
-### "3일 완성 코딩" 입문서
-초보용 HTML/CSS/JS 웹 개발 입문서 — 3일 커리큘럼, 모든 예제 복붙으로 즉시 실행 가능.
-
-### 사회조사분석사 2급 핵심 암기 노트
-시험 직전 1페이지 요약 + OX 20문 + 빈칸 35문 + 비교표 인터랙티브 HTML 위젯.
+| 단계 | 프로젝트 | 얻은 것 |
+| --- | --- | --- |
+| 01 | 상하의 색 매칭 웹앱 | AI 도구를 개발에 제대로 활용하는 법 |
+| 02 | 인스타 언팔로워 찾기 | 필요한 것을 직접 만들기 시작 |
+| 03 | 춘천과팅 | SQL · 백엔드 · RLS 권한 설계 첫 도입 |
+| 04 | 통계 대시보드 | "만들기"에서 "배포하기"로 |
+| 05 | 증권사 오픈 API 자동매매 (진행 중) | 외부 API · 키 관리 · 자동화 파이프라인 |
+| 06 | 콘텐츠 수익화 실험 | 기술을 수익 구조로 연결하는 감각 |
 
 ---
 
-## 🛠️ 기술 스택
+## 일하는 방식
 
-**언어**
+AI 도구(Claude, Cursor 등)를 적극 활용해 구현 속도를 끌어올리되, **요구사항 정의 · DB 스키마와 권한(RLS) 설계 · 배포는 직접** 합니다. 전역 후 5개월간 아이디어를 배포까지 반복해서 밀어붙인 기록이 이 계정입니다.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4169E1?logo=postgresql&logoColor=white)
+## Tech Stack
 
-**프레임워크**
+- **Languages** — TypeScript · JavaScript · Python · SQL
+- **Frontend** — React · Next.js · Vite · Tailwind CSS
+- **Backend / Infra** — Supabase (PostgreSQL · Auth · Storage · RLS) · Vercel · GitHub Actions
 
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0066CC?logo=swift&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white)
+## Certifications
 
-**백엔드 / 인프라**
+<!-- 이미 SQLD에 합격했다면 아래 줄을 다음으로 교체하세요:
+     - **SQLD** (SQL 개발자, 한국데이터산업진흥원) — 0000.00 취득 -->
+- **SQLD** (SQL 개발자, 한국데이터산업진흥원) — 취득 준비 중
+- 자동차운전면허 1종 보통
 
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GH%20Actions-2088FF?logo=githubactions&logoColor=white)
+## Education & Activity
+
+- 한림대학교 경영학과 재학 · 컴퓨터공학계열 복수전공 (2023.03 – )
+- 한림대학교 학생복지위원회 시설국 부장 (2026.03 – )
+- 대한민국 해병대 병장 만기전역 (2024.02 – 2025.08)
+
+## Contact
+
+- Email: king33135867@gmail.com
+
+---
+---
+
+<a id="english"></a>
+
+# JongHyun Lee
+
+[한국어](#korean) · **English**
+
+> **The kind of person who builds it the moment the idea strikes — a deployed link says more than a planning doc.**
+
+A university student developer who takes projects from idea to deployment solo — planning, architecture, development, and shipping. Ideas get validated by working results, not by meetings.
+
+Business Administration × Software double major @ Hallym University, Chuncheon, Korea · Republic of Korea Marine Corps, honorable discharge as Sergeant (Feb 2024 – Aug 2025)
+
+[king33135867@gmail.com](mailto:king33135867@gmail.com)
 
 ---
 
-## 📊 GitHub 통계
+## Featured Projects
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jonghyun0000&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=ko" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonghyun0000&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&locale=ko" height="165" />
-</p>
+### Chuncheon Gwating — 3:3 group matching platform for university students
 
----
+A matching service for students in the Chuncheon area. Designed and built end to end, from verification through the payment flow.
 
-## 📫 연락처
+- Student-ID photo upload → admin-approval verification workflow
+- Supabase RLS-based authorization design, secret separation, documented key-rotation policy
+- 4-language i18n (KO / EN / JA / ZH), GitHub Actions keepalive against free-tier sleep
+- **Stack**: React · TypeScript · Vite · Supabase (PostgreSQL · Auth · Storage) · Vercel
 
-- 📧 **king33135867@gmail.com**
-- 📷 인스타그램 DM: **@04_jonghyun**
-- 💬 협업 환영: 인디 해커 콜라보 · 핀테크 사이드 프로젝트 · 학생 대상 SaaS
+[Deployment](https://chuncheon-dating4-0.vercel.app/) · [Repo](https://github.com/jonghyun0000/chuncheon-dating5.0)
 
----
+### Hangul Coding Platform — a Korean-keyword programming language & web IDE
 
-<details>
-  <summary>🇺🇸 English Version (click to expand)</summary>
+Designed and implemented an educational language driven by Korean keywords (만약 / 반복 / 함수 — if / loop / function).
 
-<br>
+- Hand-built lexer → parser → AST → tree-walking interpreter (~1,400 LOC)
+- Custom CodeMirror 6 language support: syntax highlighting, auto-indent, autocomplete, hover tooltips
+- Turtle-graphics runtime; handles Korean IME edge cases such as smart quotes
+- **Stack**: TypeScript · React · CodeMirror 6
 
-## 🧭 About
+[Repo](https://github.com/jonghyun0000/Korean-coding-platform)
 
-- 🎓 **Business × Software** dual major @ **Hallym University**, Chuncheon
-- 💼 **Solo indie maker** — design, code, deploy, operate. End to end. Alone.
-- 🧠 ENTJ · finance brain × engineer's hands · bias toward shipping
-- 🎯 Goal: profitable side-projects → financial career by **2029**
+### University Tuition Compare — public-data tuition lookup and comparison
 
----
+Organizes tuition data for universities across Korea into a searchable, comparable interface.
 
-## 🤖 AI Stack
+- Per-university dataset construction and comparison views
+- **Stack**: Next.js (App Router) · TypeScript · Tailwind CSS
 
-> I don't hand-write code anymore. I architect, AI executes. These are the tools I actually pay for.
+[Repo](https://github.com/jonghyun0000/University-tuition-fees)
 
-| Tool | Plan | What I use it for |
-|------|------|-------------------|
-| **Claude** | **Max ($100/mo)** | Main pair-programmer · full-stack builds · Supabase RLS · refactors |
-| **ChatGPT** | **Plus** | Quick research · idea validation · copy |
-| **Gemini** | **Pro** | Multimodal analysis · second opinion |
-| **Cursor** | Free | IDE with inline AI edits |
-| **GitHub Copilot** | Free | Editor autocomplete |
+### Sign Language Recognizer — real-time Korean sign language via webcam
 
----
+Recognizes hand shapes through the camera, identifies consonants and words, and speaks the result aloud.
 
-## 💼 Career
+- MediaPipe Hands dual-hand tracking, gesture classification, confidence display and debouncing
+- 10 consonants and 5 words recognized, Korean text-to-speech output
+- **Stack**: TypeScript · React · MediaPipe
 
-> _To be filled in — internships and project operation experience._
+[Repo](https://github.com/jonghyun0000/Sign-language1.0)
 
----
+### Smart Uniform Kiosk — in-store order / repair / reservation screens
 
-## 🏅 Certifications
+A customer kiosk and admin console designed for a school-uniform store.
 
-- 🥋 **태권도 2단증 · 2014.09.15** 
-- 🛞 **운전면허증 1종 보통 · 2023.07.13** 
-- ⛷️ **스키지도자 자격증 LEVEL · 2026.02.02**
-- 🎿 **스키지도요원자격증 TEACHING1 · 2026.02.12** 
+- Four customer flows (order / repair / exchange / reservation) + admin statistics dashboard
+- **Stack**: Next.js (App Router) · TypeScript · Supabase
 
----
+[Repo](https://github.com/jonghyun0000/smart-School-uniform3.0)
 
-## 🌸 Live Service
+### Find-Unfollow — Instagram unfollower analysis PWA
 
-### [Chuncheon Gwating 4.0](https://chuncheon-dating4-0.vercel.app/) — *Live · paid users*
-3-on-3 blind-date matching platform for students at Kangwon · Hallym · Songsim universities. Real payments, student-ID verification, admin operations, security-hardened (RLS + admin assertions).  
-🔗 **Live:** https://chuncheon-dating4-0.vercel.app/  
-**Stack:** React · Vite · TypeScript · Supabase · Vercel
+Privacy-first design: data never leaves the browser.
+
+- Parses Instagram data-export files → unfollower / mutual analysis with statistics charts
+- Installable PWA with service worker and web manifest
+- **Stack**: Next.js · TypeScript · Tailwind CSS
+
+[Repo](https://github.com/jonghyun0000/Find-Unfollow2.1)
 
 ---
 
-## 🚧 Currently Building
+## Growth Log
 
-### 📉 Instagram Unfollow Finder (Find-Unfollow 2.0)
-Web app that finds accounts you follow that don't follow you back. All data processed locally for privacy.  
-**Stack:** TypeScript · React · Tailwind
+Six projects, six stages of growth.
 
-### 📈 Stock Auto-Trading Bot
-Rule-based automated trading system with single pipeline from backtest to live trading.  
-**Stack:** Python · Korea Investment & Securities API · Pandas
-
-### 🧠 Dement — Elderly Dementia Prevention Service
-SaMD (Software as a Medical Device) concept for cognitive self-monitoring. Mobile app for users + caregivers.  
-**Compliance target:** MFDS (Korea) · FDA (US) · EU MDR
-
----
-
-## ✅ Completed Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| 🎨 **color-matching 1.0** | Color matching recommendation for men's outfits | HTML |
-| 💾 **Savebox-App** | Savings tracking app | HTML |
-| 🌏 **Making-Foreign-Friends** | Networking platform to meet international friends | HTML |
-| 🌡️ **AI Language Temperature Lab** | Visualizes AI response "temperature" across 7 linguistic metrics | HTML |
-| 🚌 **Transfer-GO** | T-Money competition entry · public transit transfer helper | HTML |
-| 🏪 **smart-School-uniform 1.0~3.0** | Kiosk automation for parents' uniform store (inventory + payment) | TypeScript |
-| 🎯 **rota-mbti / rota-Quiz / hallym_rotaract** | Interactive tools for Hallym Rotaract club | HTML |
-| 🔍 **Find-Unfollow v1** | Earlier version of unfollow finder (evolved into v2) | HTML |
-| 🌸 **chuncheon-dating v1~v3** | Archived earlier iterations of the live v4 | TypeScript |
+| Stage | Project | What it taught me |
+| --- | --- | --- |
+| 01 | Outfit color-matching web app | Using AI tools properly for real development |
+| 02 | Instagram unfollower finder | Building the things I actually needed |
+| 03 | Chuncheon Gwating | First real SQL, backend, and RLS authorization design |
+| 04 | Statistics dashboard | Moving from "building" to shipping |
+| 05 | Brokerage open-API auto trading (in progress) | External APIs, key management, automation pipelines |
+| 06 | Content monetization experiments | Connecting technology to revenue |
 
 ---
 
-## 📚 Content / Side Outputs
+## How I Work
 
-### "3-Day Complete Coding" Book
-Full beginner web-dev book (HTML / CSS / JS) — 3-day curriculum, every example runnable by copy-paste.
+I use AI tools (Claude, Cursor, etc.) aggressively to accelerate implementation, while **owning requirements, DB schema and authorization (RLS) design, and deployment myself**. This account is the record of five months since military discharge of repeatedly pushing ideas all the way to deployment.
 
-### Social Research Analyst Level 2 Study Note
-Interactive HTML widget — 1-page summary + 20 OX questions + 35 fill-in-the-blanks + comparison tables.
+## Tech Stack
 
----
+- **Languages** — TypeScript · JavaScript · Python · SQL
+- **Frontend** — React · Next.js · Vite · Tailwind CSS
+- **Backend / Infra** — Supabase (PostgreSQL · Auth · Storage · RLS) · Vercel · GitHub Actions
 
-## 📫 Contact
+## Certifications
 
-- 📧 **king33135867@gmail.com**
-- 📷 Instagram DM: **@04_jonghyun**
-- 💬 Open to: indie-hacker collabs · FinTech side-projects · student-market SaaS
+- **SQLD** (SQL Developer, Korea Data Agency) — in preparation
+- Driver's License, Class 1 Ordinary (Korea)
 
-</details>
+## Education & Activity
 
----
+- B.B.A. in progress, double major in Computer Engineering track — Hallym University (Mar 2023 – )
+- Director of Facilities, Student Welfare Committee, Hallym University (Mar 2026 – )
+- Republic of Korea Marine Corps — Sergeant, honorable discharge (Feb 2024 – Aug 2025)
 
-<p align="center"><i>Build small. Ship fast. Make it pay.</i></p>
+## Contact
+
+- Email: king33135867@gmail.com
