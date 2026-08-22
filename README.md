@@ -1,16 +1,25 @@
 <a id="korean"></a>
 
-# 이종현 · JongHyun
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1200&center=true&vCenter=true&width=720&lines=%EC%9D%B4%EC%A2%85%ED%98%84%20%7C%20Indie%20Maker%20%26%20ENTJ%3BBusiness%20%C3%97%20Software%20%40%20Hallym%20Univ.%3B%EA%B8%B0%ED%9A%8D%20%E2%86%92%20%EC%84%A4%EA%B3%84%20%E2%86%92%20%EA%B0%9C%EB%B0%9C%20%E2%86%92%20%EB%B0%B0%ED%8F%AC%EA%B9%8C%EC%A7%80%20%ED%98%BC%EC%9E%90%3BAI-native%20builder%20%C2%B7%20%EC%B6%98%EC%B2%9C" alt="Typing SVG" />
+</p>
 
-**한국어** · [English](#english)
+<h1 align="center">안녕하세요, 이종현입니다</h1>
+
+<p align="center">
+  <a href="mailto:king33135867@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-king33135867%40gmail.com-EA4335?logo=gmail&logoColor=white"></a>
+  <a href="https://github.com/jonghyun0000"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-jonghyun0000-181717?logo=github&logoColor=white"></a>
+</p>
+
+<p align="center"><b>한국어</b> · <a href="#english">English</a></p>
+
+---
 
 > **떠오르면 일단 만들어버리는 사람 — 기획서 대신 배포 링크로 말합니다.**
 
 기획 · 설계 · 개발 · 배포까지 혼자 완결하는 대학생 개발자. 될지 안 될지는 회의가 아니라 돌아가는 결과물로 확인합니다.
 
-한림대학교 경영학 × 소프트웨어 복수전공 (춘천) · 해병대 병장 만기전역 (2024.02 – 2025.08)
-
-[king33135867@gmail.com](mailto:king33135867@gmail.com)
+한림대학교 경영학 × 소프트웨어 복수전공 (춘천) · 해병대 병장 만기전역
 
 ---
 
@@ -99,22 +108,45 @@ AI 도구(Claude, Cursor 등)를 적극 활용해 구현 속도를 끌어올리�
 
 ## Tech Stack
 
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white">
+</p>
+
 - **Languages** — TypeScript · JavaScript · Python · SQL
 - **Frontend** — React · Next.js · Vite · Tailwind CSS
 - **Backend / Infra** — Supabase (PostgreSQL · Auth · Storage · RLS) · Vercel · GitHub Actions
 
-## Certifications
+---
 
-<!-- 이미 SQLD에 합격했다면 아래 줄을 다음으로 교체하세요:
-     - **SQLD** (SQL 개발자, 한국데이터산업진흥원) — 0000.00 취득 -->
-- **SQLD** (SQL 개발자, 한국데이터산업진흥원) — 취득 준비 중
-- 자동차운전면허 1종 보통
+## 경력
 
-## Education & Activity
+- **2026.03 – 현재** · 한림대학교 학생복지위원회 · 시설국 부장
+  - 교내 물품대여 서비스 운영
+- **2024.02.19 – 2025.08.18** · 대한민국 해병대 · 병 1303기
+  - 병장 만기전역
+
+## 자격증
+
+**데이터 · 분석**
+- **SQLD** (SQL 개발자, 한국데이터산업진흥원) — 준비 중
+- **사회조사분석사 2급** — 준비 중
+
+**기타**
+- 운전면허 1종 보통 · 2023.07.13
+- 스키지도자 자격증 LEVEL 1 · 2026.02.02
+- 스키지도요원 자격증 TEACHING 1 · 2026.02.12
+- 태권도 2단 · 2014.09.15
+
+## 학력
 
 - 한림대학교 경영학과 재학 · 컴퓨터공학계열 복수전공 (2023.03 – )
-- 한림대학교 학생복지위원회 시설국 부장 (2026.03 – )
-- 대한민국 해병대 병장 만기전역 (2024.02 – 2025.08)
 
 ## Contact
 
@@ -125,17 +157,17 @@ AI 도구(Claude, Cursor 등)를 적극 활용해 구현 속도를 끌어올리�
 
 <a id="english"></a>
 
-# JongHyun Lee
+<h1 align="center">Hi, I'm JONGHYUN</h1>
 
-[한국어](#korean) · **English**
+<p align="center"><a href="#korean">한국어</a> · <b>English</b></p>
+
+---
 
 > **The kind of person who builds it the moment the idea strikes — a deployed link says more than a planning doc.**
 
 A university student developer who takes projects from idea to deployment solo — planning, architecture, development, and shipping. Ideas get validated by working results, not by meetings.
 
-Business Administration × Software double major @ Hallym University, Chuncheon, Korea · Republic of Korea Marine Corps, honorable discharge as Sergeant (Feb 2024 – Aug 2025)
-
-[king33135867@gmail.com](mailto:king33135867@gmail.com)
+Business Administration × Software double major @ Hallym University, Chuncheon, Korea · Republic of Korea Marine Corps, honorable discharge as Sergeant
 
 ---
 
@@ -228,16 +260,30 @@ I use AI tools (Claude, Cursor, etc.) aggressively to accelerate implementation,
 - **Frontend** — React · Next.js · Vite · Tailwind CSS
 - **Backend / Infra** — Supabase (PostgreSQL · Auth · Storage · RLS) · Vercel · GitHub Actions
 
+---
+
+## Experience
+
+- **Mar 2026 – Present** · Student Welfare Committee, Hallym University · Director of Facilities
+  - Operating the campus equipment-rental service
+- **Feb 2024 – Aug 2025** · Republic of Korea Marine Corps · 1303rd class
+  - Honorable discharge as Sergeant
+
 ## Certifications
 
+**Data & Analysis**
 - **SQLD** (SQL Developer, Korea Data Agency) — in preparation
-- Driver's License, Class 1 Ordinary (Korea)
+- **Social Research Analyst Level 2** — in preparation
 
-## Education & Activity
+**Others**
+- Driver's License, Class 1 Ordinary · Jul 2023
+- Ski Instructor Level 1 · Feb 2026
+- Ski Teaching 1 · Feb 2026
+- Taekwondo 2nd Dan · Sep 2014
+
+## Education
 
 - B.B.A. in progress, double major in Computer Engineering track — Hallym University (Mar 2023 – )
-- Director of Facilities, Student Welfare Committee, Hallym University (Mar 2026 – )
-- Republic of Korea Marine Corps — Sergeant, honorable discharge (Feb 2024 – Aug 2025)
 
 ## Contact
 
