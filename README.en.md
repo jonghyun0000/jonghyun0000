@@ -1,5 +1,11 @@
 # Jonghyun Lee
 
+![Build something. Make it better.](assets/hero.svg)
+
+My first vibe-coding project was an outfit color matcher. Chuncheon Gwating is the service I feel most attached to. I use AI tools to build, then work on understanding, testing, and improving what I have made.
+
+Recent improvements: a color-matching home redesign, solid-color extraction fixes and regression tests; an interactive experiment lab in the coding playground, with 16 new example tests alongside 150 existing smoke checks. See the [Korean profile](https://github.com/jonghyun0000) for the illustrated project collection and improvement records.
+
 I build web applications around everyday problems. I study Business Administration and Software at Hallym University, with experience taking projects from requirements to implementation and deployment.
 
 [한국어](https://github.com/jonghyun0000) · [Email](mailto:king33135867@gmail.com)
