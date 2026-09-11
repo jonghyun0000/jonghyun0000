@@ -75,6 +75,16 @@
 
 [Repo](https://github.com/jonghyun0000/smart-School-uniform3.0)
 
+### 뚝딱 — 상하의 컬러매칭 웹앱
+
+옷 사진에서 대표 색을 추출하고, 어울리는 상하의 색 조합을 추천하는 웹앱입니다.
+
+- K-means 기반 색 추출 · 이미지 중앙 샘플링과 배경색 가중치 조정
+- 색상·명도·채도와 패션 페어를 활용한 규칙 기반 추천
+- **Stack**: React · TypeScript · Vite · Tailwind CSS
+
+[Repo](https://github.com/jonghyun0000/color-matching2.0)
+
 ### Find-Unfollow — 인스타그램 언팔로워 분석 PWA
 
 데이터를 서버로 보내지 않고 브라우저 안에서만 처리하는 프라이버시 우선 설계입니다.
@@ -93,7 +103,7 @@
 
 | 단계 | 프로젝트 | 얻은 것 |
 | --- | --- | --- |
-| 01 | 상하의 색 매칭 웹앱 | AI 도구를 개발에 제대로 활용하는 법 |
+| 01 | [상하의 색 매칭 웹앱](https://github.com/jonghyun0000/color-matching2.0) | AI 도구를 개발에 제대로 활용하는 법 |
 | 02 | 인스타 언팔로워 찾기 | 필요한 것을 직접 만들기 시작 |
 | 03 | 춘천과팅 | SQL · 백엔드 · RLS 권한 설계 첫 도입 |
 | 04 | 통계 대시보드 | "만들기"에서 "배포하기"로 |
@@ -223,6 +233,16 @@ A customer kiosk and admin console designed for a school-uniform store.
 
 [Repo](https://github.com/jonghyun0000/smart-School-uniform3.0)
 
+### Ttukttak — outfit color-matching web app
+
+Extracts representative colors from clothing photos and recommends matching colors for tops and bottoms.
+
+- K-means color extraction with central image sampling and background weighting
+- Rule-based recommendations using hue, lightness, saturation, and fashion color pairs
+- **Stack**: React · TypeScript · Vite · Tailwind CSS
+
+[Repo](https://github.com/jonghyun0000/color-matching2.0)
+
 ### Find-Unfollow — Instagram unfollower analysis PWA
 
 Privacy-first design: data never leaves the browser.
@@ -241,7 +261,7 @@ Six projects, six stages of growth.
 
 | Stage | Project | What it taught me |
 | --- | --- | --- |
-| 01 | Outfit color-matching web app | Using AI tools properly for real development |
+| 01 | [Outfit color-matching web app](https://github.com/jonghyun0000/color-matching2.0) | Using AI tools properly for real development |
 | 02 | Instagram unfollower finder | Building the things I actually needed |
 | 03 | Chuncheon Gwating | First real SQL, backend, and RLS authorization design |
 | 04 | Statistics dashboard | Moving from "building" to shipping |
