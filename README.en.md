@@ -20,11 +20,11 @@ I build web applications around everyday problems. I study Business Administrati
 
 - **Workflow:** attach reference material → approve each file write or command → verify execution results → restore file changes without overwriting conflicting later edits.
 - **Evidence:** **87 PASS / 3 SKIP** in local browser tests, **15 PASS** for saving last-moment collaborative edits during shutdown, and **2 isolated database restores** without overwriting the original database. These are results from the tested local environment; skipped checks remain explicitly recorded.
-- **Current scope:** a project verified in a local development environment, not a publicly hosted web service or a universally installable product. It does not guarantee correct AI answers or successful completion of every task.
+- **Current scope:** real AI and file operations run locally. A separate public demo shows approval, verification, and recovery using fictional documents and simulated replies, without connecting to personal data or the local server. This is not a universally installable product and does not guarantee correct AI answers.
 
 `Ollama` `React` `TypeScript` `Fastify` `PostgreSQL` `Redis` `Yjs` `Docker`
 
-**[Source, local setup, and verification records ↗](https://github.com/jonghyun0000/aios)**
+**[Try the interactive demo ↗](https://aios-demo-mu.vercel.app)** · [Source, local setup, and verification records](https://github.com/jonghyun0000/aios)
 
 ## Selected projects
 
