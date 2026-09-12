@@ -4,11 +4,27 @@
 
 My first vibe-coding project was an outfit color matcher. Chuncheon Gwating is the service I feel most attached to. I use AI tools to build, then work on understanding, testing, and improving what I have made.
 
+My current main project is **AIOS**: a local workspace that connects AI conversations with reference material and practical tasks, including execution checks and recovery.
+
 Recent improvements: a color-matching home redesign, solid-color extraction fixes and regression tests; an interactive experiment lab in the coding playground, with 16 new example tests alongside 150 existing smoke checks. See the [Korean profile](https://github.com/jonghyun0000) for the illustrated project collection and improvement records.
 
 I build web applications around everyday problems. I study Business Administration and Software at Hallym University, with experience taking projects from requirements to implementation and deployment.
 
 [한국어](https://github.com/jonghyun0000) · [Email](mailto:king33135867@gmail.com)
+
+## Main project
+
+### AIOS — Local AI Workspace
+
+**Work with AI on my own computer, with approval, verification, and recovery in the same workflow.** This browser-based workspace uses local Ollama models. I build it with AI assistance, verify it through actual execution, and improve it from those results.
+
+- **Workflow:** attach reference material → approve each file write or command → verify execution results → restore file changes without overwriting conflicting later edits.
+- **Evidence:** **87 PASS / 3 SKIP** in local browser tests, **15 PASS** for saving last-moment collaborative edits during shutdown, and **2 isolated database restores** without overwriting the original database. These are results from the tested local environment; skipped checks remain explicitly recorded.
+- **Current scope:** a project verified in a local development environment, not a publicly hosted web service or a universally installable product. It does not guarantee correct AI answers or successful completion of every task.
+
+`Ollama` `React` `TypeScript` `Fastify` `PostgreSQL` `Redis` `Yjs` `Docker`
+
+**[Source, local setup, and verification records ↗](https://github.com/jonghyun0000/aios)**
 
 ## Selected projects
 
