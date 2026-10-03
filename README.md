@@ -13,7 +13,7 @@
 ## 대표 프로젝트
 
 <a id="aios"></a>
-<a href="https://github.com/jonghyun0000/aios"><img src="assets/profile/aios-ko.png" width="100%" alt="AIOS — 로컬 AI 작업공간" /></a>
+<a href="https://github.com/jonghyun0000/aios"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/aios-ko-dark.png" /><img src="assets/profile/aios-ko.png" width="100%" alt="AIOS — 로컬 AI 작업공간" /></picture></a>
 내 컴퓨터의 자료와 AI 대화를 연결하고, 실제 작업의 승인·검증·복구까지 이어지는 환경을 만들고 있습니다.
 
 <details>
@@ -64,7 +64,7 @@
 [소스·연구 기록](https://github.com/jonghyun0000/project-poseidon) · [관측 대조](https://github.com/jonghyun0000/project-poseidon/blob/main/docs/PHASE24_GLOBAL_OBSERVATIONAL_VALIDATION.md)
 
 <a id="chuncheon"></a>
-<a href="https://github.com/jonghyun0000/chuncheon-dating5.0"><img src="assets/profile/chuncheon-ko.png" width="100%" alt="춘천과팅 — 지역 대학생 매칭 서비스" /></a>
+<a href="https://github.com/jonghyun0000/chuncheon-dating5.0"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/chuncheon-ko-dark.png" /><img src="assets/profile/chuncheon-ko.png" width="100%" alt="춘천과팅 — 지역 대학생 매칭 서비스" /></picture></a>
 강원대·한림대·성심대·춘교대 학생을 위한 1:1~4:4 매칭 웹앱입니다. 지역 대학생의 만남을 학생 인증부터 팀 등록, 매칭 요청과 관리까지 하나의 흐름으로 연결했습니다.
 
 <details>

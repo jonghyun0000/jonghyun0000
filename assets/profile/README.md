@@ -17,3 +17,7 @@ Updated 2026-10-03. The `btn-*` images replace the earlier 48px `button-*` image
 - Display size 28px high, rendered at 2x. Light and dark versions are switched with `<picture>` and `prefers-color-scheme`.
 - Icons: [Lucide](https://lucide.dev) `arrow-up-right` (try it), `code` (source), `terminal` (run locally). ISC License.
 - Typeface: [Pretendard](https://github.com/orioncactus/pretendard) SemiBold, SIL Open Font License 1.1.
+
+## Dark card variants
+
+Added 2026-10-03. `aios-*-dark.png` and `chuncheon-*-dark.png` are shown on GitHub's dark theme through `<picture>` and `prefers-color-scheme`. They were derived from the light cards by inverting lightness in the Lab color space while keeping hue, so typography and layout match the originals. The Chuncheon Gwating app icon keeps its original pixels. JH CUT Studio and Project Poseidon are already dark and have no separate variant.
