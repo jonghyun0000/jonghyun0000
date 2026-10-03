@@ -1,6 +1,4 @@
-# Jonghyun Lee · 이종현
-
-**I find everyday problems, build software, and improve it through use.**
+<p align="center"><img src="assets/profile/hero-en.png" width="100%" alt="Jonghyun Lee — From everyday problems to working products." /></p>
 
 I study Business Administration and Software at Hallym University. My first project recommended outfit colors; since then, I have explored campus services, educational tools, a local AI workspace, and a video editor. I build with AI assistance and improve my work through execution checks and hands-on use.
 
@@ -8,49 +6,69 @@ I study Business Administration and Software at Hallym University. My first proj
 
 ## Featured projects
 
-### AIOS — Local AI Workspace
-
+<a id="aios"></a>
+<a href="https://github.com/jonghyun0000/aios"><img src="assets/profile/aios-en.png" width="100%" alt="AIOS — Local AI Workspace" /></a>
 A workspace connecting personal reference material and AI conversations with task approval, execution checks, and recovery.
+
+<details>
+<summary>Implementation and verification scope</summary>
 
 - Attach reference material and approve individual file changes or commands.
 - Check exit codes and file hashes; stop recovery when it conflicts with later edits.
 - Real AI and file operations run locally. The public demo uses fictional documents and simulated replies to illustrate the workflow.
 
+</details>
+
 `TypeScript` `React` `Fastify` `PostgreSQL` `Ollama`
 
 [Try the workflow](https://aios-demo-mu.vercel.app) · [Source and setup](https://github.com/jonghyun0000/aios) · [Verification records](https://github.com/jonghyun0000/aios/blob/main/docs/43-web-model-selection.md)
 
-### JH CUT Studio — Local Video Editor for macOS
-
+<a id="jhcut"></a>
+<a href="https://github.com/jonghyun0000/JHCutStudio"><img src="assets/profile/jhcut-en.png" width="100%" alt="JH CUT Studio — Local Video Editor for macOS" /></a>
 A Korean-first editor connecting video editing, captions, translation, and export on a local computer.
+
+<details>
+<summary>Implementation and verification scope</summary>
 
 - Timeline editing, automatic captions, and translation between Korean, Japanese, and English.
 - Checkpoints and resume support for long tasks, with output quality checks.
 - Currently a local development build, with installation instructions and documented verification scope.
 
+</details>
+
 `Swift` `macOS` `whisper.cpp`
 
 [Source](https://github.com/jonghyun0000/JHCutStudio) · [Setup](https://github.com/jonghyun0000/JHCutStudio/blob/main/docs/INSTALL-0.7.md) · [Verification status](https://github.com/jonghyun0000/JHCutStudio/blob/main/docs/STATUS.md)
 
-### Project Poseidon — Ocean Data and Voyage Simulation
-
+<a id="poseidon"></a>
+<a href="https://github.com/jonghyun0000/project-poseidon"><img src="assets/profile/poseidon-en.png" width="100%" alt="Project Poseidon — Ocean Data and Voyage Simulation" /></a>
 A research project comparing wave and marine wind data with observations and exploring changes across routes and departure conditions.
+
+<details>
+<summary>Implementation and verification scope</summary>
 
 - Connects global forecasts, port search, and voyage simulation.
 - Records observational comparisons and conditions with insufficient samples separately.
 - Still in research and validation; suitability for operational navigation has not been established.
 
+</details>
+
 `Python` `FastAPI` `JAX` `MapLibre`
 
 [Source and research](https://github.com/jonghyun0000/project-poseidon) · [Observational validation](https://github.com/jonghyun0000/project-poseidon/blob/main/docs/PHASE24_GLOBAL_OBSERVATIONAL_VALIDATION.md)
 
-### Chuncheon Gwating — Student Matching Service
-
+<a id="chuncheon"></a>
+<a href="https://github.com/jonghyun0000/chuncheon-dating5.0"><img src="assets/profile/chuncheon-en.png" width="100%" alt="Chuncheon Gwating — Student Matching Service" /></a>
 A 1:1–4:4 matching web app for university students in Chuncheon. It connects student verification, team registration, matching requests, and administration in one workflow.
+
+<details>
+<summary>Implementation and verification scope</summary>
 
 - Student verification, team and member registration, matching requests and acceptance, and administration screens.
 - Improvements to atomic team saves, concurrent matching, personal data access, and registration and withdrawal flows.
 - Published application, browser, and database verification records, with local tests distinguished from production deployment checks.
+
+</details>
 
 `React` `TypeScript` `Supabase` `Vercel`
 
