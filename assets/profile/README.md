@@ -9,3 +9,11 @@ Banners and project cards for the bilingual GitHub profile, added 2026-10-03.
 - Banner layout and project illustrations: original vector layout for this profile. PNGs keep the typography consistent across GitHub themes and operating systems.
 
 Korean and English assets share the same layout. The surrounding README retains text descriptions, source links, and expandable implementation details.
+
+## Link buttons
+
+Updated 2026-10-03. The `btn-*` images replace the earlier 48px `button-*` images.
+
+- Display size 28px high, rendered at 2x. Light and dark versions are switched with `<picture>` and `prefers-color-scheme`.
+- Icons: [Lucide](https://lucide.dev) `arrow-up-right` (try it), `code` (source), `terminal` (run locally). ISC License.
+- Typeface: [Pretendard](https://github.com/orioncactus/pretendard) SemiBold, SIL Open Font License 1.1.
