@@ -77,99 +77,109 @@ A 1:1–4:4 matching web app for university students in Chuncheon. It connects s
 ## Services and tools
 
 <table width="100%">
-<tr><td>
+<tr>
+<td width="33%" valign="top">
 <strong>PromPotion</strong><br />
 A web MVP for composing, copying, and saving architecture prompts from visual selections. No image generation API is connected.
 <p>
-<a href="https://prompotion.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try PromPotion" /></a>
-<a href="https://github.com/jonghyun0000/prompotion"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="PromPotion source" /></a>
+<a href="https://prompotion.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-try-en-dark.png" /><img src="assets/profile/btn-try-en-light.png" width="93" height="28" alt="Try PromPotion" /></picture></a>
+<a href="https://github.com/jonghyun0000/prompotion"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-source-en-dark.png" /><img src="assets/profile/btn-source-en-light.png" width="82" height="28" alt="PromPotion source" /></picture></a>
 </p>
-</td></tr>
-<tr><td>
+</td>
+<td width="33%" valign="top">
 <strong>Hangul Coding Playground</strong><br />
 An educational web app connecting a Korean-keyword language engine, code editor, and turtle graphics.
 <p>
-<a href="https://korean-coding-platform.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Hangul Coding Playground" /></a>
-<a href="https://github.com/jonghyun0000/Korean-coding-platform"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Hangul Coding Playground source" /></a>
+<a href="https://korean-coding-platform.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-try-en-dark.png" /><img src="assets/profile/btn-try-en-light.png" width="93" height="28" alt="Try Hangul Coding Playground" /></picture></a>
+<a href="https://github.com/jonghyun0000/Korean-coding-platform"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-source-en-dark.png" /><img src="assets/profile/btn-source-en-light.png" width="82" height="28" alt="Hangul Coding Playground source" /></picture></a>
 </p>
-</td></tr>
-<tr><td>
+</td>
+<td width="33%" valign="top">
 <strong>Unfollow Lens 2.2</strong><br />
 A PWA that analyzes Instagram JSON relationships and changes between snapshots in the browser.
 <p>
-<a href="https://re-campus-yngl.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Unfollow Lens 2.2" /></a>
-<a href="https://github.com/jonghyun0000/Find-Unfollow2.1"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Unfollow Lens 2.2 source" /></a>
+<a href="https://re-campus-yngl.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-try-en-dark.png" /><img src="assets/profile/btn-try-en-light.png" width="93" height="28" alt="Try Unfollow Lens 2.2" /></picture></a>
+<a href="https://github.com/jonghyun0000/Find-Unfollow2.1"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-source-en-dark.png" /><img src="assets/profile/btn-source-en-light.png" width="82" height="28" alt="Unfollow Lens 2.2 source" /></picture></a>
 </p>
-</td></tr>
+</td>
+</tr>
 </table>
 
 ## More work
 
 <table width="100%">
-<tr><td>
+<tr>
+<td width="50%" valign="top">
 <strong>Ttukttak — Outfit Color Matching</strong><br />
 My first vibe-coding project: representative color extraction and rule-based outfit combinations.
 <p>
-<a href="https://color-matching2-0.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Ttukttak — Outfit Color Matching" /></a>
-<a href="https://github.com/jonghyun0000/color-matching2.0"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Ttukttak — Outfit Color Matching source" /></a>
+<a href="https://color-matching2-0.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-try-en-dark.png" /><img src="assets/profile/btn-try-en-light.png" width="93" height="28" alt="Try Ttukttak — Outfit Color Matching" /></picture></a>
+<a href="https://github.com/jonghyun0000/color-matching2.0"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-source-en-dark.png" /><img src="assets/profile/btn-source-en-light.png" width="82" height="28" alt="Ttukttak — Outfit Color Matching source" /></picture></a>
 </p>
-</td></tr>
-<tr><td>
+</td>
+<td width="50%" valign="top">
 <strong>Tuition Receipt</strong><br />
 Explore and compare university financial disclosures with data provenance.
 <p>
-<a href="https://university-tuition-fees.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Tuition Receipt" /></a>
-<a href="https://github.com/jonghyun0000/University-tuition-fees"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Tuition Receipt source" /></a>
+<a href="https://university-tuition-fees.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-try-en-dark.png" /><img src="assets/profile/btn-try-en-light.png" width="93" height="28" alt="Try Tuition Receipt" /></picture></a>
+<a href="https://github.com/jonghyun0000/University-tuition-fees"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-source-en-dark.png" /><img src="assets/profile/btn-source-en-light.png" width="82" height="28" alt="Tuition Receipt source" /></picture></a>
 </p>
-</td></tr>
-<tr><td>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <strong>Lotto 6/45 Statistics</strong><br />
 Draw statistics and tests of number-selection assumptions. This is not a winning-number prediction service.
 <p>
-<a href="https://lotto-645-stats.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Lotto 6/45 Statistics" /></a>
-<a href="https://github.com/jonghyun0000/lotto-645-stats"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Lotto 6/45 Statistics source" /></a>
+<a href="https://lotto-645-stats.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-try-en-dark.png" /><img src="assets/profile/btn-try-en-light.png" width="93" height="28" alt="Try Lotto 6/45 Statistics" /></picture></a>
+<a href="https://github.com/jonghyun0000/lotto-645-stats"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-source-en-dark.png" /><img src="assets/profile/btn-source-en-light.png" width="82" height="28" alt="Lotto 6/45 Statistics source" /></picture></a>
 </p>
-</td></tr>
-<tr><td>
+</td>
+<td width="50%" valign="top">
 <strong>ABBA</strong><br />
 Goal-based financial plan calculations and AI explanations. Account connections are UI mockups; run this project locally.
 <p>
-<a href="https://github.com/jonghyun0000/abba-finance-hackathon#시작하기"><img src="assets/profile/button-setup-en.png" width="168" height="48" alt="Run ABBA locally" /></a>
-<a href="https://github.com/jonghyun0000/abba-finance-hackathon"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="ABBA source" /></a>
+<a href="https://github.com/jonghyun0000/abba-finance-hackathon#시작하기"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-setup-en-dark.png" /><img src="assets/profile/btn-setup-en-light.png" width="102" height="28" alt="Run ABBA locally" /></picture></a>
+<a href="https://github.com/jonghyun0000/abba-finance-hackathon"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-source-en-dark.png" /><img src="assets/profile/btn-source-en-light.png" width="82" height="28" alt="ABBA source" /></picture></a>
 </p>
-</td></tr>
-<tr><td>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <strong>Re:Campus</strong><br />
 A browser-storage marketplace demo with illustrative environmental metrics.
 <p>
-<a href="https://re-campus.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Re:Campus" /></a>
-<a href="https://github.com/jonghyun0000/Re-Campus1.0"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Re:Campus source" /></a>
+<a href="https://re-campus.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-try-en-dark.png" /><img src="assets/profile/btn-try-en-light.png" width="93" height="28" alt="Try Re:Campus" /></picture></a>
+<a href="https://github.com/jonghyun0000/Re-Campus1.0"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-source-en-dark.png" /><img src="assets/profile/btn-source-en-light.png" width="82" height="28" alt="Re:Campus source" /></picture></a>
 </p>
-</td></tr>
-<tr><td>
+</td>
+<td width="50%" valign="top">
 <strong>School Uniform Kiosk</strong><br />
 Customer and administration screens for uniform orders, alterations, exchanges, and reservations.
 <p>
-<a href="https://smart-school-uniform-app2-0-iw2y.vercel.app/customer"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try School Uniform Kiosk" /></a>
-<a href="https://github.com/jonghyun0000/smart-School-uniform3.0"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="School Uniform Kiosk source" /></a>
+<a href="https://smart-school-uniform-app2-0-iw2y.vercel.app/customer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-try-en-dark.png" /><img src="assets/profile/btn-try-en-light.png" width="93" height="28" alt="Try School Uniform Kiosk" /></picture></a>
+<a href="https://github.com/jonghyun0000/smart-School-uniform3.0"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-source-en-dark.png" /><img src="assets/profile/btn-source-en-light.png" width="82" height="28" alt="School Uniform Kiosk source" /></picture></a>
 </p>
-</td></tr>
-<tr><td>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <strong>Hand Tracking and Gesture Classification</strong><br />
 An experiment in webcam hand tracking and rule-based classification, with explicit uncertainty in handshape mappings.
 <p>
-<a href="https://sign-language1-0-jsqy.vercel.app/"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Hand Tracking and Gesture Classification" /></a>
-<a href="https://github.com/jonghyun0000/Sign-language1.0"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Hand Tracking and Gesture Classification source" /></a>
+<a href="https://sign-language1-0-jsqy.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-try-en-dark.png" /><img src="assets/profile/btn-try-en-light.png" width="93" height="28" alt="Try Hand Tracking and Gesture Classification" /></picture></a>
+<a href="https://github.com/jonghyun0000/Sign-language1.0"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-source-en-dark.png" /><img src="assets/profile/btn-source-en-light.png" width="82" height="28" alt="Hand Tracking and Gesture Classification source" /></picture></a>
 </p>
-</td></tr>
-<tr><td>
+</td>
+<td width="50%" valign="top">
 <strong>US Stock Trading Bot</strong><br />
 Order, fill, and accounting consistency; documented defects and improvements. Local simulation setup is available.
 <p>
-<a href="https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot#실행"><img src="assets/profile/button-setup-en.png" width="168" height="48" alt="Run US Stock Trading Bot locally" /></a>
-<a href="https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="US Stock Trading Bot source" /></a>
+<a href="https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot#실행"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-setup-en-dark.png" /><img src="assets/profile/btn-setup-en-light.png" width="102" height="28" alt="Run US Stock Trading Bot locally" /></picture></a>
+<a href="https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/btn-source-en-dark.png" /><img src="assets/profile/btn-source-en-light.png" width="82" height="28" alt="US Stock Trading Bot source" /></picture></a>
 </p>
-</td></tr>
+</td>
+</tr>
 </table>
 
 ## Technologies used in these projects
