@@ -13,7 +13,7 @@ I study Business Administration and Software at Hallym University. My first proj
 ## Featured projects
 
 <a id="aios"></a>
-<a href="https://github.com/jonghyun0000/aios"><img src="assets/profile/aios-en.png" width="100%" alt="AIOS — Local AI Workspace" /></a>
+<a href="https://github.com/jonghyun0000/aios"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/aios-en-dark.png" /><img src="assets/profile/aios-en.png" width="100%" alt="AIOS — Local AI Workspace" /></picture></a>
 A workspace connecting personal reference material and AI conversations with task approval, execution checks, and recovery.
 
 <details>
@@ -64,7 +64,7 @@ A research project comparing wave and marine wind data with observations and exp
 [Source and research](https://github.com/jonghyun0000/project-poseidon) · [Observational validation](https://github.com/jonghyun0000/project-poseidon/blob/main/docs/PHASE24_GLOBAL_OBSERVATIONAL_VALIDATION.md)
 
 <a id="chuncheon"></a>
-<a href="https://github.com/jonghyun0000/chuncheon-dating5.0"><img src="assets/profile/chuncheon-en.png" width="100%" alt="Chuncheon Gwating — Student Matching Service" /></a>
+<a href="https://github.com/jonghyun0000/chuncheon-dating5.0"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/chuncheon-en-dark.png" /><img src="assets/profile/chuncheon-en.png" width="100%" alt="Chuncheon Gwating — Student Matching Service" /></picture></a>
 A 1:1–4:4 matching web app for university students in Chuncheon. It connects student verification, team registration, matching requests, and administration in one workflow.
 
 <details>
