@@ -1,111 +1,105 @@
-<p align="center"><img src="assets/hero.svg" width="100%" alt="이종현 — 아이디어를 만들고, 쓰면서 배웁니다. 경영학 × 소프트웨어, 한림대학교" /></p>
+# 이종현 · Jonghyun Lee
 
-<p align="center">
-<a href="mailto:king33135867@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_me-263454?style=flat-square&logo=gmail&logoColor=white" alt="이메일" /></a>
-<img src="https://img.shields.io/badge/Hallym-Business_%C3%97_Software-53658A?style=flat-square" alt="한림대학교 경영학 × 소프트웨어" />
-<a href="README.en.md"><img src="https://img.shields.io/badge/Read_in-English-716396?style=flat-square" alt="English profile" /></a>
-</p>
+**생활의 문제를 발견하고, 소프트웨어로 만들고, 쓰면서 개선합니다.**
 
-한림대학교에서 경영학과 소프트웨어를 공부하는 **이종현**입니다. 생활에서 발견한 문제를 웹으로 만들고 있습니다. 첫 바이브코딩이었던 옷 색 매칭에서 시작해, 지역 대학생 서비스와 교육 도구로 관심을 넓혔습니다.
+한림대학교에서 경영학과 소프트웨어를 공부합니다. 옷 색 조합을 추천하는 첫 프로젝트에서 시작해, 지역 대학생 서비스와 교육 도구, 로컬 AI 작업공간과 영상 편집기로 관심을 넓혀 왔습니다. AI와 함께 구현하고, 실행 결과와 사용 경험을 바탕으로 개선합니다.
 
-AI와 함께 구현하고, 만든 것을 이해하고 검증하며 개선하는 과정도 이곳에 기록합니다.
+[Email](mailto:king33135867@gmail.com) · [English](README.en.md)
 
-현재 가장 집중하는 프로젝트는 **AIOS**입니다. 대화만 하는 AI를 넘어, 내 컴퓨터의 자료와 작업을 연결하고 실행 결과와 복구 가능성까지 확인하는 로컬 작업공간을 만들고 있습니다.
-
-## Main project
+## 대표 프로젝트
 
 ### AIOS — 로컬 AI 작업공간
 
-**내 컴퓨터에서 AI와 작업하고, 승인·검증·복구까지 이어지는 흐름.** Ollama 로컬 모델을 연결한 브라우저 작업공간으로, AI와 함께 구현하고 실제 실행으로 확인하며 개선하고 있습니다.
+내 컴퓨터의 자료와 AI 대화를 연결하고, 실제 작업의 승인·검증·복구까지 이어지는 환경을 만들고 있습니다.
 
-- **작업 흐름:** 자료 연결 → 파일 쓰기·명령 실행 건별 승인 → 실행 결과 검증 → 이후 수정과 충돌하면 덮어쓰지 않는 파일 복구.
-- **확인한 근거:** 로컬 브라우저 테스트 **87 PASS / 3 SKIP**, 종료 직전 협업 편집의 저장 검증 **15 PASS**, 기존 DB를 덮어쓰지 않는 **격리 DB 복원 2회**. 검사 당시 환경의 결과이며, 생략한 항목도 구분해 기록합니다.
-- **현재 범위:** 실제 AI·파일 작업은 로컬 제품입니다. 별도 공개 체험판은 가상 문서와 모의 응답으로 승인·검증·복구 흐름을 보여주며 개인 데이터나 로컬 서버에 연결하지 않습니다. 모든 컴퓨터의 즉시 설치나 AI 답변의 정확도를 보장하지 않습니다.
+- 자료를 연결해 대화하고, 파일 변경·명령 실행을 건별로 승인합니다.
+- 종료 코드와 파일 해시로 실행 결과를 확인하고, 이후 수정과 충돌하는 복구는 멈춥니다.
+- 실제 AI·파일 작업은 로컬에서 실행합니다. 공개 체험판은 가상 문서와 모의 응답으로 작업 흐름을 보여줍니다.
 
-`Ollama` `React` `TypeScript` `Fastify` `PostgreSQL` `Redis` `Yjs` `Docker`
+`TypeScript` `React` `Fastify` `PostgreSQL` `Ollama`
 
-**[설치 없이 체험하기 ↗](https://aios-demo-mu.vercel.app)** · [소스·실행 안내·검증 기록](https://github.com/jonghyun0000/aios)
+[흐름 체험하기](https://aios-demo-mu.vercel.app) · [소스·실행 안내](https://github.com/jonghyun0000/aios) · [검증 기록](https://github.com/jonghyun0000/aios/blob/main/docs/43-web-model-selection.md)
 
-## Selected work
+### JH CUT Studio — macOS 로컬 영상 편집기
 
-### 춘천과팅
+영상 편집부터 자막·번역·출력까지, 한국어로 작업할 수 있는 로컬 편집기를 만들고 있습니다.
 
-<a href="https://chuncheon-dating5-0.vercel.app/"><img src="assets/chuncheon.svg" width="100%" alt="춘천과팅 — 춘천 지역 대학생을 위한 3:3 매칭 서비스" /></a>
+- 타임라인 편집, 자동 자막, 한국어·일본어·영어 번역을 연결합니다.
+- 긴 작업의 체크포인트·이어하기와 출력 품질 검사를 제공합니다.
+- 현재는 로컬 개발 빌드입니다. 설치 안내와 실제 검증 범위를 함께 공개합니다.
 
-**춘천 지역 대학생을 위한 3:3 매칭 서비스.** 가장 애착을 갖고 발전시켜 온 프로젝트입니다. 학생 인증부터 팀 등록, 매칭 요청, 관리자 화면까지 하나의 흐름으로 연결했습니다.
+`Swift` `macOS` `whisper.cpp`
+
+[소스](https://github.com/jonghyun0000/JHCutStudio) · [설치 안내](https://github.com/jonghyun0000/JHCutStudio/blob/main/docs/INSTALL-0.7.md) · [검증 상태](https://github.com/jonghyun0000/JHCutStudio/blob/main/docs/STATUS.md)
+
+### Project Poseidon — 해양 데이터와 항로 시뮬레이션
+
+해양 파랑·해상풍 데이터를 관측과 대조하고, 항로와 출항 조건에 따른 변화를 살펴보는 연구 프로젝트입니다.
+
+- 전 지구 예보 데이터와 항만 검색, 항로 시뮬레이션을 연결합니다.
+- 관측 대조 결과와 표본이 부족한 조건을 구분해 기록합니다.
+- 연구·검증 단계이며, 현업 항해에 투입할 수 있는 수준은 아직 확인하지 못했습니다.
+
+`Python` `FastAPI` `JAX` `MapLibre`
+
+[소스·연구 기록](https://github.com/jonghyun0000/project-poseidon) · [관측 대조](https://github.com/jonghyun0000/project-poseidon/blob/main/docs/PHASE24_GLOBAL_OBSERVATIONAL_VALIDATION.md)
+
+### 춘천과팅 — 지역 대학생 매칭 서비스
+
+강원대·한림대·성심대·춘교대 학생을 위한 1:1~4:4 매칭 웹앱입니다. 지역 대학생의 만남을 학생 인증부터 팀 등록, 매칭 요청과 관리까지 하나의 흐름으로 연결했습니다.
+
+- 학생 인증, 팀·팀원 등록, 매칭 신청·수락과 관리자 화면을 제공합니다.
+- 팀 저장의 원자성, 매칭 동시성, 개인정보 접근 권한과 가입·탈퇴 흐름을 개선했습니다.
+- 애플리케이션·브라우저·DB 검증 기록을 공개하고, 로컬 시험과 운영 배포 확인을 구분합니다.
 
 `React` `TypeScript` `Supabase` `Vercel`
 
-**[서비스 열기 ↗](https://chuncheon-dating5-0.vercel.app/)** · [저장소](https://github.com/jonghyun0000/chuncheon-dating5.0)
+[서비스 열기](https://chuncheon-dating5-0.vercel.app/) · [소스](https://github.com/jonghyun0000/chuncheon-dating5.0) · [검증 기록](https://github.com/jonghyun0000/chuncheon-dating5.0/blob/main/docs/validation/README.md)
 
-### 뚝딱 — 컬러매칭
+## 서비스와 도구
 
-<a href="https://color-matching2-0.vercel.app"><img src="assets/color.svg" width="100%" alt="뚝딱 컬러매칭 — 첫 바이브코딩 프로젝트, 옷 사진에서 색 추출과 조합 추천" /></a>
+| 프로젝트 | 만든 것 | 살펴보기 |
+|---|---|---|
+| **PromPotion** | 건축 이미지의 시각 요소를 골라 프롬프트를 작성·복사·저장하는 웹 MVP. 이미지 생성 API는 연결하지 않았습니다. | [체험](https://prompotion.vercel.app) · [소스](https://github.com/jonghyun0000/prompotion) |
+| **한글코딩 놀이터** | 한글 키워드 언어 엔진, 코드 편집기와 거북이 그래픽을 연결한 교육용 웹앱 | [체험](https://korean-coding-platform.vercel.app) · [소스](https://github.com/jonghyun0000/Korean-coding-platform) |
+| **Unfollow Lens 2.2** | Instagram JSON 파일의 팔로우 관계와 기준일별 변화를 브라우저에서 분석하는 PWA | [체험](https://re-campus-yngl.vercel.app) · [소스](https://github.com/jonghyun0000/Find-Unfollow2.1) |
 
-**“이 옷에 무슨 색을 입지?”에서 시작한 첫 바이브코딩.** 옷 사진에서 대표 색을 추출하고, 상황에 맞는 색 조합을 추천합니다. 사진 없이 색을 눌러 바로 체험할 수도 있습니다.
+## 더 만든 것
 
-- **만든 것:** K-means 색 추출, 색 조합 추천과 이유, 상황별 모드, 즐겨찾기.
-- **개선한 것:** 단색 사진 분석 오류 수정, 같은 입력의 결과 재현, 업로드 오류 안내와 키보드 포커스.
-- **확인할 수 있는 근거:** 색 추출 경계 사례와 등록 색 전체의 추천 제약을 확인하는 자동 테스트. 추천 점수는 취향이나 정확도 확률이 아닌 규칙 기반 참고값입니다.
+| 분야 | 프로젝트 | 다룬 문제 |
+|---|---|---|
+| 생활 도구 | [뚝딱 — 컬러매칭](https://github.com/jonghyun0000/color-matching2.0) | 첫 바이브코딩 프로젝트. 옷 사진의 대표 색 추출과 규칙 기반 조합 추천 |
+| 공공데이터 | [등록금 영수증](https://github.com/jonghyun0000/University-tuition-fees) | 대학 공시 재정 데이터의 조회·비교와 출처 안내 |
+| 통계 | [로또 통계 6/45](https://github.com/jonghyun0000/lotto-645-stats) | 회차별 통계와 추첨 모델의 가정 검정 |
+| 금융 UI 시안 | [ABBA](https://github.com/jonghyun0000/abba-finance-hackathon) | 목표 기반 금융 계획 계산과 AI 설명. 계좌 연동은 UI 시안 |
+| 캠퍼스 프로토타입 | [Re:Campus](https://github.com/jonghyun0000/Re-Campus1.0) | 브라우저 저장 기반 중고거래 데모와 예시 환경 지표 |
+| 매장 업무 | [스마트 교복 키오스크](https://github.com/jonghyun0000/smart-School-uniform3.0) | 주문·수선·교환·예약과 관리자 화면 |
+| 인식 실험 | [손 추적·제스처 분류](https://github.com/jonghyun0000/Sign-language1.0) | 웹캠 손 추적과 규칙 분류, 수형 대응의 근거·불확실성 표시 |
+| 자동화·감사 | [미국주식 자동매매 봇](https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot) | 주문·체결·손익 정합성과 결함 감사·개선 기록 |
 
-`React` `TypeScript` `Vite` `Color analysis`
+## 프로젝트에서 사용하는 기술
 
-**[직접 체험하기 ↗](https://color-matching2-0.vercel.app)** · [저장소](https://github.com/jonghyun0000/color-matching2.0) · [테스트](https://github.com/jonghyun0000/color-matching2.0/blob/main/scripts/color.test.ts) · [개선 기록](https://github.com/jonghyun0000/color-matching2.0/blob/main/docs/UPGRADE.md)
+- **웹:** TypeScript · React · Next.js
+- **서버·데이터:** Fastify · Python · FastAPI · PostgreSQL · Supabase
+- **로컬 AI·앱:** Ollama · Swift · whisper.cpp
+- **실행·검증:** Docker · GitHub Actions · 단위·브라우저 테스트
 
-### 한글코딩 놀이터
+## 개발 밖에서
 
-<a href="https://korean-coding-platform.vercel.app"><img src="assets/hangul.svg" width="100%" alt="한글코딩 놀이터 — 한글 코드와 거북이 그림으로 배우는 교육 도구" /></a>
+경영학의 관점으로 서비스의 필요성을 생각하고, 소프트웨어로 구현해 봅니다.
 
-**코딩을 처음 배우는 사람이, 아는 말로 시작할 수 있도록.** 한글 코드와 거북이 그래픽을 연결한 교육용 웹앱입니다. 언어 처리와 학습 경험을 더 이해하며 발전시키고 있는 프로젝트입니다.
-
-- **만든 것:** 한글 언어 엔진, CodeMirror 편집기, 12차시 미션과 학습 진도 저장.
-- **개선한 것:** 변의 수와 누적 합을 바꿔보는 예제 실험실. 먼저 예상하고, 설명을 보고, 코드로 실행하는 흐름을 추가했습니다.
-- **확인할 수 있는 근거:** 기존 문법·미션 스모크 테스트 150개와 새 실험 예제 테스트 16개. 코드 교체·페이지 이동 시 저장 처리도 보완했습니다.
-
-`TypeScript` `React` `CodeMirror` `Canvas`
-
-**[놀이터 열기 ↗](https://korean-coding-platform.vercel.app)** · [저장소](https://github.com/jonghyun0000/Korean-coding-platform) · [테스트](https://github.com/jonghyun0000/Korean-coding-platform/tree/main/scripts) · [개선 기록](https://github.com/jonghyun0000/Korean-coding-platform/blob/main/docs/UPGRADE.md)
-
-## Also built
-
-| 프로젝트 | 다룬 문제 |
-| :--- | :--- |
-| [대학 등록금 비교](https://github.com/jonghyun0000/University-tuition-fees) | 공공데이터를 대학별로 조회하고 비교하기 |
-| [수어 인식기](https://github.com/jonghyun0000/Sign-language1.0) | 웹캠 손 추적과 제스처 분류 |
-| [로또 통계](https://github.com/jonghyun0000/lotto-645-stats) | 역대 회차 통계와 예측 가능성 검정 |
-| [스마트 교복 키오스크](https://github.com/jonghyun0000/smart-School-uniform3.0) | 매장의 주문·수선·교환·예약 흐름 |
-| [Find-Unfollow](https://github.com/jonghyun0000/Find-Unfollow2.1) | 브라우저 안에서 인스타그램 데이터 분석 |
-| [미국주식 자동매매](https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot) | Python 자동화와 결함 감사 기록 |
-| [Re-Campus](https://github.com/jonghyun0000/Re-Campus1.0) | 캠퍼스 중고거래와 탄소 절감량 환산 |
-
-## Tools I work with
-
-<p>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/React-192C3D?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/Next.js-20242D?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Supabase-164C3C?style=flat-square&logo=supabase&logoColor=3FCF8E" alt="Supabase" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-</p>
-
-## Beyond code
-
-경영학의 관점으로 서비스의 필요성을 생각하고, 소프트웨어로 작게 구현해 봅니다.
-
-- **한림대학교** 경영학과 · 컴퓨터공학계열 복수전공 (2023.03–)
-- **학생복지위원회 시설국 부장** · 교내 물품대여 서비스 운영 (2026.03–)
-- **대한민국 해병대** 병장 만기전역 (2024.02–2025.08)
+- 한림대학교 경영학과 · 컴퓨터공학계열 복수전공 (2023.03–)
+- 학생복지위원회 시설국 부장 · 교내 물품대여 서비스 운영 (2026.03–)
 
 <details>
-<summary>학습 중인 분야 · 기타 자격</summary>
+<summary>그 밖의 경험과 학습</summary>
 
-학습·시험 준비: SQLD, 사회조사분석사 2급
-
-취득 자격: 운전면허 1종 보통 · 스키지도자 LEVEL 1 · 스키지도요원 TEACHING 1 · 태권도 2단
+- 대한민국 해병대 병장 만기전역 (2024.02–2025.08)
+- 학습·시험 준비: SQLD, 사회조사분석사 2급
+- 취득 자격: 운전면허 1종 보통 · 스키지도자 LEVEL 1 · 스키지도요원 TEACHING 1 · 태권도 2단
 
 </details>
 
 ---
 
-<p align="center"><b>작은 문제에서 시작해, 더 나은 결과물로.</b><br /><a href="mailto:king33135867@gmail.com">king33135867@gmail.com</a></p>
+[이메일로 연락하기](mailto:king33135867@gmail.com)

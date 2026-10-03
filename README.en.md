@@ -1,76 +1,105 @@
-# Jonghyun Lee
+# Jonghyun Lee · 이종현
 
-![Build something. Make it better.](assets/hero.svg)
+**I find everyday problems, build software, and improve it through use.**
 
-My first vibe-coding project was an outfit color matcher. Chuncheon Gwating is the service I feel most attached to. I use AI tools to build, then work on understanding, testing, and improving what I have made.
+I study Business Administration and Software at Hallym University. My first project recommended outfit colors; since then, I have explored campus services, educational tools, a local AI workspace, and a video editor. I build with AI assistance and improve my work through execution checks and hands-on use.
 
-My current main project is **AIOS**: a local workspace that connects AI conversations with reference material and practical tasks, including execution checks and recovery.
+[Email](mailto:king33135867@gmail.com) · [한국어](README.md)
 
-Recent improvements: a color-matching home redesign, solid-color extraction fixes and regression tests; an interactive experiment lab in the coding playground, with 16 new example tests alongside 150 existing smoke checks. See the [Korean profile](https://github.com/jonghyun0000) for the illustrated project collection and improvement records.
-
-I build web applications around everyday problems. I study Business Administration and Software at Hallym University, with experience taking projects from requirements to implementation and deployment.
-
-[한국어](https://github.com/jonghyun0000) · [Email](mailto:king33135867@gmail.com)
-
-## Main project
+## Featured projects
 
 ### AIOS — Local AI Workspace
 
-**Work with AI on my own computer, with approval, verification, and recovery in the same workflow.** This browser-based workspace uses local Ollama models. I build it with AI assistance, verify it through actual execution, and improve it from those results.
+A workspace connecting personal reference material and AI conversations with task approval, execution checks, and recovery.
 
-- **Workflow:** attach reference material → approve each file write or command → verify execution results → restore file changes without overwriting conflicting later edits.
-- **Evidence:** **87 PASS / 3 SKIP** in local browser tests, **15 PASS** for saving last-moment collaborative edits during shutdown, and **2 isolated database restores** without overwriting the original database. These are results from the tested local environment; skipped checks remain explicitly recorded.
-- **Current scope:** real AI and file operations run locally. A separate public demo shows approval, verification, and recovery using fictional documents and simulated replies, without connecting to personal data or the local server. This is not a universally installable product and does not guarantee correct AI answers.
+- Attach reference material and approve individual file changes or commands.
+- Check exit codes and file hashes; stop recovery when it conflicts with later edits.
+- Real AI and file operations run locally. The public demo uses fictional documents and simulated replies to illustrate the workflow.
 
-`Ollama` `React` `TypeScript` `Fastify` `PostgreSQL` `Redis` `Yjs` `Docker`
+`TypeScript` `React` `Fastify` `PostgreSQL` `Ollama`
 
-**[Try the interactive demo ↗](https://aios-demo-mu.vercel.app)** · [Source, local setup, and verification records](https://github.com/jonghyun0000/aios)
+[Try the workflow](https://aios-demo-mu.vercel.app) · [Source and setup](https://github.com/jonghyun0000/aios) · [Verification records](https://github.com/jonghyun0000/aios/blob/main/docs/43-web-model-selection.md)
 
-## Selected projects
+### JH CUT Studio — Local Video Editor for macOS
 
-### Hangul Coding Platform
-An educational language and web IDE with Korean keywords, console output, and turtle graphics.
+A Korean-first editor connecting video editing, captions, translation, and export on a local computer.
 
-- Separates lexing, parsing, AST construction, and interpretation; integrates a CodeMirror editor.
-- The repository includes smoke tests for language execution, error messages, input retries, and turtle commands.
-- TypeScript · React · CodeMirror 6
+- Timeline editing, automatic captions, and translation between Korean, Japanese, and English.
+- Checkpoints and resume support for long tasks, with output quality checks.
+- Currently a local development build, with installation instructions and documented verification scope.
 
-[Demo](https://korean-coding-platform.vercel.app) · [Source](https://github.com/jonghyun0000/Korean-coding-platform) · [Tests](https://github.com/jonghyun0000/Korean-coding-platform/blob/main/scripts/smoke.ts)
+`Swift` `macOS` `whisper.cpp`
 
-### Chuncheon Gwating
-A 3:3 group-matching service for university students in Chuncheon.
+[Source](https://github.com/jonghyun0000/JHCutStudio) · [Setup](https://github.com/jonghyun0000/JHCutStudio/blob/main/docs/INSTALL-0.7.md) · [Verification status](https://github.com/jonghyun0000/JHCutStudio/blob/main/docs/STATUS.md)
 
-- Organizes student verification, team registration, matching requests, and administration into separate features.
-- Client routes distinguish signed-in users and administrators. Production database authorization requires separate verification; route guards alone do not establish data security.
-- React · TypeScript · Vite · Supabase
+### Project Poseidon — Ocean Data and Voyage Simulation
 
-[Demo](https://chuncheon-dating5-0.vercel.app/) · [Source](https://github.com/jonghyun0000/chuncheon-dating5.0) · [Route guard](https://github.com/jonghyun0000/chuncheon-dating5.0/blob/main/src/routes/AdminRoute.tsx)
+A research project comparing wave and marine wind data with observations and exploring changes across routes and departure conditions.
 
-### Ttukttak — Outfit Color Matching
-Extracts representative colors from clothing photos and recommends matching colors.
+- Connects global forecasts, port search, and voyage simulation.
+- Records observational comparisons and conditions with insufficient samples separately.
+- Still in research and validation; suitability for operational navigation has not been established.
 
-- Uses central image sampling, K-means clustering, and background weighting.
-- Scores color pairs using hue, lightness, saturation, and fashion rules; limits repeated color families.
-- Recommendations are rule-based, not a model trained on personal preferences. Lighting and backgrounds can affect extraction.
-- React · TypeScript · Vite · Tailwind CSS
+`Python` `FastAPI` `JAX` `MapLibre`
 
-[Demo](https://color-matching2-0.vercel.app) · [Source](https://github.com/jonghyun0000/color-matching2.0) · [Recommendation logic](https://github.com/jonghyun0000/color-matching2.0/blob/main/src/lib/color/recommend.ts)
+[Source and research](https://github.com/jonghyun0000/project-poseidon) · [Observational validation](https://github.com/jonghyun0000/project-poseidon/blob/main/docs/PHASE24_GLOBAL_OBSERVATIONAL_VALIDATION.md)
+
+### Chuncheon Gwating — Student Matching Service
+
+A 1:1–4:4 matching web app for university students in Chuncheon. It connects student verification, team registration, matching requests, and administration in one workflow.
+
+- Student verification, team and member registration, matching requests and acceptance, and administration screens.
+- Improvements to atomic team saves, concurrent matching, personal data access, and registration and withdrawal flows.
+- Published application, browser, and database verification records, with local tests distinguished from production deployment checks.
+
+`React` `TypeScript` `Supabase` `Vercel`
+
+[Open the service](https://chuncheon-dating5-0.vercel.app/) · [Source](https://github.com/jonghyun0000/chuncheon-dating5.0) · [Verification records](https://github.com/jonghyun0000/chuncheon-dating5.0/blob/main/docs/validation/README.md)
+
+## Services and tools
+
+| Project | What it does | Explore |
+|---|---|---|
+| **PromPotion** | A web MVP for composing, copying, and saving architecture prompts from visual selections. No image generation API is connected. | [Demo](https://prompotion.vercel.app) · [Source](https://github.com/jonghyun0000/prompotion) |
+| **Hangul Coding Playground** | An educational web app connecting a Korean-keyword language engine, code editor, and turtle graphics | [Demo](https://korean-coding-platform.vercel.app) · [Source](https://github.com/jonghyun0000/Korean-coding-platform) |
+| **Unfollow Lens 2.2** | A PWA that analyzes Instagram JSON relationships and changes between snapshots in the browser | [Demo](https://re-campus-yngl.vercel.app) · [Source](https://github.com/jonghyun0000/Find-Unfollow2.1) |
 
 ## More work
 
-See the [project directory on my profile](https://github.com/jonghyun0000) for tuition comparison, sign recognition, lottery statistics, a uniform-store kiosk, Instagram data analysis, trading automation, and a campus marketplace.
+| Area | Project | Focus |
+|---|---|---|
+| Everyday tools | [Ttukttak — Outfit Color Matching](https://github.com/jonghyun0000/color-matching2.0) | My first vibe-coding project: representative color extraction and rule-based outfit combinations |
+| Public data | [Tuition Receipt](https://github.com/jonghyun0000/University-tuition-fees) | Exploring and comparing university financial disclosures with data provenance |
+| Statistics | [Lotto 6/45 Statistics](https://github.com/jonghyun0000/lotto-645-stats) | Draw statistics and tests of number-selection assumptions |
+| Finance UI prototype | [ABBA](https://github.com/jonghyun0000/abba-finance-hackathon) | Goal-based financial plan calculations and AI explanations; account connections are UI mockups |
+| Campus prototype | [Re:Campus](https://github.com/jonghyun0000/Re-Campus1.0) | A browser-storage marketplace demo with illustrative environmental metrics |
+| Store workflows | [School Uniform Kiosk](https://github.com/jonghyun0000/smart-School-uniform3.0) | Orders, alterations, exchanges, reservations, and administration screens |
+| Recognition experiment | [Hand Tracking and Gesture Classification](https://github.com/jonghyun0000/Sign-language1.0) | Webcam hand tracking, rule-based classification, and explicit uncertainty in handshape mappings |
+| Automation and audit | [US Stock Trading Bot](https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot) | Order, fill, and accounting consistency; documented defects and improvements |
 
-## Tools and approach
+## Technologies used in these projects
 
-I use AI tools during implementation and work directly on requirements, data structures, authorization design, and deployment. Source and verification references are linked above.
+- **Web:** TypeScript · React · Next.js
+- **Backend and data:** Fastify · Python · FastAPI · PostgreSQL · Supabase
+- **Local AI and apps:** Ollama · Swift · whisper.cpp
+- **Execution and verification:** Docker · GitHub Actions · unit and browser tests
 
-- TypeScript · JavaScript · Python · SQL
-- React · Next.js · Vite · Tailwind CSS
-- Supabase · PostgreSQL · Vercel · GitHub Actions
+## Beyond code
 
-## Background
+I use business studies to think about why a service is needed, and software to explore how it can work.
 
-- Business Administration student, double major in Computer Engineering track, Hallym University (2023–)
+- Business Administration student, double major in Computer Engineering track, Hallym University (Mar 2023–)
 - Director of Facilities, Student Welfare Committee; campus equipment-rental operations (Mar 2026–)
-- Republic of Korea Marine Corps; honorable discharge as Sergeant (Feb 2024–Aug 2025)
-- Studying for SQLD and Social Research Analyst Level 2; these are not listed as earned certifications.
+
+<details>
+<summary>Other experience and learning</summary>
+
+- Republic of Korea Marine Corps; completed service as Sergeant (Feb 2024–Aug 2025)
+- Studying for SQLD and Social Research Analyst Level 2
+- Qualifications: Korean Class 1 driver's license; ski instructor LEVEL 1 and TEACHING 1; Taekwondo 2nd Dan
+
+</details>
+
+---
+
+[Contact me by email](mailto:king33135867@gmail.com)
