@@ -2,7 +2,13 @@
 
 I study Business Administration and Software at Hallym University. My first project recommended outfit colors; since then, I have explored campus services, educational tools, a local AI workspace, and a video editor. I build with AI assistance and improve my work through execution checks and hands-on use.
 
-[Email](mailto:king33135867@gmail.com) · [한국어](README.md)
+[king33135867@gmail.com](mailto:king33135867@gmail.com) · [한국어](README.md)
+
+## Now
+
+- Building [AIOS](#aios), a local workspace that connects files on my computer with AI conversations.
+- Refining [JH CUT Studio](#jhcut), a macOS video editor with Korean subtitles and translation, in its local development build.
+- Running the campus equipment-rental service as Director of Facilities on the Student Welfare Committee.
 
 ## Featured projects
 
@@ -204,7 +210,3 @@ I use business studies to think about why a service is needed, and software to e
 - Qualifications: Korean Class 1 driver's license; ski instructor LEVEL 1 and TEACHING 1; Taekwondo 2nd Dan
 
 </details>
-
----
-
-[Contact me by email](mailto:king33135867@gmail.com)
