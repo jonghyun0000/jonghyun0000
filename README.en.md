@@ -76,24 +76,101 @@ A 1:1–4:4 matching web app for university students in Chuncheon. It connects s
 
 ## Services and tools
 
-| Project | What it does | Explore |
-|---|---|---|
-| **PromPotion** | A web MVP for composing, copying, and saving architecture prompts from visual selections. No image generation API is connected. | [Demo](https://prompotion.vercel.app) · [Source](https://github.com/jonghyun0000/prompotion) |
-| **Hangul Coding Playground** | An educational web app connecting a Korean-keyword language engine, code editor, and turtle graphics | [Demo](https://korean-coding-platform.vercel.app) · [Source](https://github.com/jonghyun0000/Korean-coding-platform) |
-| **Unfollow Lens 2.2** | A PWA that analyzes Instagram JSON relationships and changes between snapshots in the browser | [Demo](https://re-campus-yngl.vercel.app) · [Source](https://github.com/jonghyun0000/Find-Unfollow2.1) |
+<table width="100%">
+<tr><td>
+<strong>PromPotion</strong><br />
+A web MVP for composing, copying, and saving architecture prompts from visual selections. No image generation API is connected.
+<p>
+<a href="https://prompotion.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try PromPotion" /></a>
+<a href="https://github.com/jonghyun0000/prompotion"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="PromPotion source" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>Hangul Coding Playground</strong><br />
+An educational web app connecting a Korean-keyword language engine, code editor, and turtle graphics.
+<p>
+<a href="https://korean-coding-platform.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Hangul Coding Playground" /></a>
+<a href="https://github.com/jonghyun0000/Korean-coding-platform"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Hangul Coding Playground source" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>Unfollow Lens 2.2</strong><br />
+A PWA that analyzes Instagram JSON relationships and changes between snapshots in the browser.
+<p>
+<a href="https://re-campus-yngl.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Unfollow Lens 2.2" /></a>
+<a href="https://github.com/jonghyun0000/Find-Unfollow2.1"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Unfollow Lens 2.2 source" /></a>
+</p>
+</td></tr>
+</table>
 
 ## More work
 
-| Area | Project | Focus |
-|---|---|---|
-| Everyday tools | [Ttukttak — Outfit Color Matching](https://github.com/jonghyun0000/color-matching2.0) | My first vibe-coding project: representative color extraction and rule-based outfit combinations |
-| Public data | [Tuition Receipt](https://github.com/jonghyun0000/University-tuition-fees) | Exploring and comparing university financial disclosures with data provenance |
-| Statistics | [Lotto 6/45 Statistics](https://github.com/jonghyun0000/lotto-645-stats) | Draw statistics and tests of number-selection assumptions |
-| Finance UI prototype | [ABBA](https://github.com/jonghyun0000/abba-finance-hackathon) | Goal-based financial plan calculations and AI explanations; account connections are UI mockups |
-| Campus prototype | [Re:Campus](https://github.com/jonghyun0000/Re-Campus1.0) | A browser-storage marketplace demo with illustrative environmental metrics |
-| Store workflows | [School Uniform Kiosk](https://github.com/jonghyun0000/smart-School-uniform3.0) | Orders, alterations, exchanges, reservations, and administration screens |
-| Recognition experiment | [Hand Tracking and Gesture Classification](https://github.com/jonghyun0000/Sign-language1.0) | Webcam hand tracking, rule-based classification, and explicit uncertainty in handshape mappings |
-| Automation and audit | [US Stock Trading Bot](https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot) | Order, fill, and accounting consistency; documented defects and improvements |
+<table width="100%">
+<tr><td>
+<strong>Ttukttak — Outfit Color Matching</strong><br />
+My first vibe-coding project: representative color extraction and rule-based outfit combinations.
+<p>
+<a href="https://color-matching2-0.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Ttukttak — Outfit Color Matching" /></a>
+<a href="https://github.com/jonghyun0000/color-matching2.0"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Ttukttak — Outfit Color Matching source" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>Tuition Receipt</strong><br />
+Explore and compare university financial disclosures with data provenance.
+<p>
+<a href="https://university-tuition-fees.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Tuition Receipt" /></a>
+<a href="https://github.com/jonghyun0000/University-tuition-fees"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Tuition Receipt source" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>Lotto 6/45 Statistics</strong><br />
+Draw statistics and tests of number-selection assumptions. This is not a winning-number prediction service.
+<p>
+<a href="https://lotto-645-stats.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Lotto 6/45 Statistics" /></a>
+<a href="https://github.com/jonghyun0000/lotto-645-stats"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Lotto 6/45 Statistics source" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>ABBA</strong><br />
+Goal-based financial plan calculations and AI explanations. Account connections are UI mockups; run this project locally.
+<p>
+<a href="https://github.com/jonghyun0000/abba-finance-hackathon#시작하기"><img src="assets/profile/button-setup-en.png" width="168" height="48" alt="Run ABBA locally" /></a>
+<a href="https://github.com/jonghyun0000/abba-finance-hackathon"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="ABBA source" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>Re:Campus</strong><br />
+A browser-storage marketplace demo with illustrative environmental metrics.
+<p>
+<a href="https://re-campus.vercel.app"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Re:Campus" /></a>
+<a href="https://github.com/jonghyun0000/Re-Campus1.0"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Re:Campus source" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>School Uniform Kiosk</strong><br />
+Customer and administration screens for uniform orders, alterations, exchanges, and reservations.
+<p>
+<a href="https://smart-school-uniform-app2-0-iw2y.vercel.app/customer"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try School Uniform Kiosk" /></a>
+<a href="https://github.com/jonghyun0000/smart-School-uniform3.0"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="School Uniform Kiosk source" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>Hand Tracking and Gesture Classification</strong><br />
+An experiment in webcam hand tracking and rule-based classification, with explicit uncertainty in handshape mappings.
+<p>
+<a href="https://sign-language1-0-jsqy.vercel.app/"><img src="assets/profile/button-try-en.png" width="168" height="48" alt="Try Hand Tracking and Gesture Classification" /></a>
+<a href="https://github.com/jonghyun0000/Sign-language1.0"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="Hand Tracking and Gesture Classification source" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>US Stock Trading Bot</strong><br />
+Order, fill, and accounting consistency; documented defects and improvements. Local simulation setup is available.
+<p>
+<a href="https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot#실행"><img src="assets/profile/button-setup-en.png" width="168" height="48" alt="Run US Stock Trading Bot locally" /></a>
+<a href="https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot"><img src="assets/profile/button-source-en.png" width="112" height="48" alt="US Stock Trading Bot source" /></a>
+</p>
+</td></tr>
+</table>
 
 ## Technologies used in these projects
 

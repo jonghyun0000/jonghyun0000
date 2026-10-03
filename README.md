@@ -76,24 +76,101 @@
 
 ## 서비스와 도구
 
-| 프로젝트 | 만든 것 | 살펴보기 |
-|---|---|---|
-| **PromPotion** | 건축 이미지의 시각 요소를 골라 프롬프트를 작성·복사·저장하는 웹 MVP. 이미지 생성 API는 연결하지 않았습니다. | [체험](https://prompotion.vercel.app) · [소스](https://github.com/jonghyun0000/prompotion) |
-| **한글코딩 놀이터** | 한글 키워드 언어 엔진, 코드 편집기와 거북이 그래픽을 연결한 교육용 웹앱 | [체험](https://korean-coding-platform.vercel.app) · [소스](https://github.com/jonghyun0000/Korean-coding-platform) |
-| **Unfollow Lens 2.2** | Instagram JSON 파일의 팔로우 관계와 기준일별 변화를 브라우저에서 분석하는 PWA | [체험](https://re-campus-yngl.vercel.app) · [소스](https://github.com/jonghyun0000/Find-Unfollow2.1) |
+<table width="100%">
+<tr><td>
+<strong>PromPotion</strong><br />
+건축 이미지의 시각 요소를 골라 프롬프트를 작성·복사·저장하는 웹 MVP. 이미지 생성 API는 연결하지 않았습니다.
+<p>
+<a href="https://prompotion.vercel.app"><img src="assets/profile/button-try-ko.png" width="168" height="48" alt="PromPotion 사용해보기" /></a>
+<a href="https://github.com/jonghyun0000/prompotion"><img src="assets/profile/button-source-ko.png" width="112" height="48" alt="PromPotion 소스 보기" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>한글코딩 놀이터</strong><br />
+한글 키워드 언어 엔진, 코드 편집기와 거북이 그래픽을 연결한 교육용 웹앱.
+<p>
+<a href="https://korean-coding-platform.vercel.app"><img src="assets/profile/button-try-ko.png" width="168" height="48" alt="한글코딩 놀이터 사용해보기" /></a>
+<a href="https://github.com/jonghyun0000/Korean-coding-platform"><img src="assets/profile/button-source-ko.png" width="112" height="48" alt="한글코딩 놀이터 소스 보기" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>Unfollow Lens 2.2</strong><br />
+Instagram JSON 파일의 팔로우 관계와 기준일별 변화를 브라우저에서 분석하는 PWA.
+<p>
+<a href="https://re-campus-yngl.vercel.app"><img src="assets/profile/button-try-ko.png" width="168" height="48" alt="Unfollow Lens 2.2 사용해보기" /></a>
+<a href="https://github.com/jonghyun0000/Find-Unfollow2.1"><img src="assets/profile/button-source-ko.png" width="112" height="48" alt="Unfollow Lens 2.2 소스 보기" /></a>
+</p>
+</td></tr>
+</table>
 
 ## 더 만든 것
 
-| 분야 | 프로젝트 | 다룬 문제 |
-|---|---|---|
-| 생활 도구 | [뚝딱 — 컬러매칭](https://github.com/jonghyun0000/color-matching2.0) | 첫 바이브코딩 프로젝트. 옷 사진의 대표 색 추출과 규칙 기반 조합 추천 |
-| 공공데이터 | [등록금 영수증](https://github.com/jonghyun0000/University-tuition-fees) | 대학 공시 재정 데이터의 조회·비교와 출처 안내 |
-| 통계 | [로또 통계 6/45](https://github.com/jonghyun0000/lotto-645-stats) | 회차별 통계와 추첨 모델의 가정 검정 |
-| 금융 UI 시안 | [ABBA](https://github.com/jonghyun0000/abba-finance-hackathon) | 목표 기반 금융 계획 계산과 AI 설명. 계좌 연동은 UI 시안 |
-| 캠퍼스 프로토타입 | [Re:Campus](https://github.com/jonghyun0000/Re-Campus1.0) | 브라우저 저장 기반 중고거래 데모와 예시 환경 지표 |
-| 매장 업무 | [스마트 교복 키오스크](https://github.com/jonghyun0000/smart-School-uniform3.0) | 주문·수선·교환·예약과 관리자 화면 |
-| 인식 실험 | [손 추적·제스처 분류](https://github.com/jonghyun0000/Sign-language1.0) | 웹캠 손 추적과 규칙 분류, 수형 대응의 근거·불확실성 표시 |
-| 자동화·감사 | [미국주식 자동매매 봇](https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot) | 주문·체결·손익 정합성과 결함 감사·개선 기록 |
+<table width="100%">
+<tr><td>
+<strong>뚝딱 — 컬러매칭</strong><br />
+첫 바이브코딩 프로젝트. 옷 사진의 대표 색 추출과 규칙 기반 조합 추천.
+<p>
+<a href="https://color-matching2-0.vercel.app"><img src="assets/profile/button-try-ko.png" width="168" height="48" alt="뚝딱 — 컬러매칭 사용해보기" /></a>
+<a href="https://github.com/jonghyun0000/color-matching2.0"><img src="assets/profile/button-source-ko.png" width="112" height="48" alt="뚝딱 — 컬러매칭 소스 보기" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>등록금 영수증</strong><br />
+대학 공시 재정 데이터의 조회·비교와 출처 안내.
+<p>
+<a href="https://university-tuition-fees.vercel.app"><img src="assets/profile/button-try-ko.png" width="168" height="48" alt="등록금 영수증 사용해보기" /></a>
+<a href="https://github.com/jonghyun0000/University-tuition-fees"><img src="assets/profile/button-source-ko.png" width="112" height="48" alt="등록금 영수증 소스 보기" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>로또 통계 6/45</strong><br />
+회차별 통계와 추첨 모델의 가정 검정. 당첨 예측 서비스가 아닙니다.
+<p>
+<a href="https://lotto-645-stats.vercel.app"><img src="assets/profile/button-try-ko.png" width="168" height="48" alt="로또 통계 6/45 사용해보기" /></a>
+<a href="https://github.com/jonghyun0000/lotto-645-stats"><img src="assets/profile/button-source-ko.png" width="112" height="48" alt="로또 통계 6/45 소스 보기" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>ABBA</strong><br />
+목표 기반 금융 계획 계산과 AI 설명. 계좌 연동은 UI 시안이며, 로컬에서 실행합니다.
+<p>
+<a href="https://github.com/jonghyun0000/abba-finance-hackathon#시작하기"><img src="assets/profile/button-setup-ko.png" width="168" height="48" alt="ABBA 로컬 실행 안내" /></a>
+<a href="https://github.com/jonghyun0000/abba-finance-hackathon"><img src="assets/profile/button-source-ko.png" width="112" height="48" alt="ABBA 소스 보기" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>Re:Campus</strong><br />
+브라우저 저장 기반 중고거래 데모와 예시 환경 지표.
+<p>
+<a href="https://re-campus.vercel.app"><img src="assets/profile/button-try-ko.png" width="168" height="48" alt="Re:Campus 사용해보기" /></a>
+<a href="https://github.com/jonghyun0000/Re-Campus1.0"><img src="assets/profile/button-source-ko.png" width="112" height="48" alt="Re:Campus 소스 보기" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>스마트 교복 키오스크</strong><br />
+교복 주문·수선·교환·예약을 위한 고객용 화면과 관리자 화면.
+<p>
+<a href="https://smart-school-uniform-app2-0-iw2y.vercel.app/customer"><img src="assets/profile/button-try-ko.png" width="168" height="48" alt="스마트 교복 키오스크 사용해보기" /></a>
+<a href="https://github.com/jonghyun0000/smart-School-uniform3.0"><img src="assets/profile/button-source-ko.png" width="112" height="48" alt="스마트 교복 키오스크 소스 보기" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>손 추적·제스처 분류</strong><br />
+웹캠 손 추적과 규칙 분류 실험. 수형 대응의 근거·불확실성을 표시합니다.
+<p>
+<a href="https://sign-language1-0-jsqy.vercel.app/"><img src="assets/profile/button-try-ko.png" width="168" height="48" alt="손 추적·제스처 분류 사용해보기" /></a>
+<a href="https://github.com/jonghyun0000/Sign-language1.0"><img src="assets/profile/button-source-ko.png" width="112" height="48" alt="손 추적·제스처 분류 소스 보기" /></a>
+</p>
+</td></tr>
+<tr><td>
+<strong>미국주식 자동매매 봇</strong><br />
+주문·체결·손익 정합성과 결함 감사·개선 기록. 로컬 모의 실행 안내를 제공합니다.
+<p>
+<a href="https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot#실행"><img src="assets/profile/button-setup-ko.png" width="168" height="48" alt="미국주식 자동매매 봇 로컬 실행 안내" /></a>
+<a href="https://github.com/jonghyun0000/Toss-US-Auto-Trading-Bot"><img src="assets/profile/button-source-ko.png" width="112" height="48" alt="미국주식 자동매매 봇 소스 보기" /></a>
+</p>
+</td></tr>
+</table>
 
 ## 프로젝트에서 사용하는 기술
 
